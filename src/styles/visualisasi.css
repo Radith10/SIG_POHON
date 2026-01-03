@@ -1,0 +1,15 @@
+.visualisasi-page {
+  padding: 40px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.visualisasi-page h1 {
+  margin-bottom: 16px;
+  color: var(--green-dark);
+}
+
+.visualisasi-page p {
+  color: var(--text-muted);
+  line-height: 1.6;
+}

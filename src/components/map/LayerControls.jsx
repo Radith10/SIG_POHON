@@ -6,27 +6,25 @@ export default function LayerControls({ map }) {
   };
 
   return (
-    <div
-      style={{
-        position: "absolute",
-        top: 20,
-        right: 30,
-        background: "white",
-        padding: "12px",
-        borderRadius: "8px",
-        boxShadow: "0 0 8px rgba(0,0,0,0.3)",
-        zIndex: 2000,
-      }}
-    >
-      <h5 style={{ margin: 0 }}>Layer Control</h5>
-      <label>
-        <input type="checkbox" defaultChecked onChange={() => handleToggle(1)} />
-        &nbsp;Polygon Riau
+    <div className="layer-control">
+      <h4>Layer Control</h4>
+
+      <label className="layer-item">
+        <input
+          type="checkbox"
+          defaultChecked
+          onChange={() => handleToggle(1)}
+        />
+        <span>Polygon Riau</span>
       </label>
-      <br />
-      <label>
-        <input type="checkbox" defaultChecked onChange={() => handleToggle(2)} />
-        &nbsp;Titik Banjir
+
+      <label className="layer-item">
+        <input
+          type="checkbox"
+          defaultChecked
+          onChange={() => handleToggle(2)}
+        />
+        <span>Titik Banjir</span>
       </label>
     </div>
   );

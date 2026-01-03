@@ -1,0 +1,121 @@
+/* =======================
+   PAGE OFFSET
+======================= */
+.page-offset {
+  padding-top: var(--navbar-height);
+  height: calc(100vh - var(--navbar-height));
+}
+
+/* =======================
+   MAP CONTAINER
+======================= */
+.map-container {
+  width: 100%;
+  height: calc(100vh - var(--navbar-height));
+  overflow: hidden;
+}
+
+/* MAP WRAPPER */
+.map-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.map-canvas {
+  width: 100%;
+  height: 100%;
+}
+
+/* =======================
+   MAP UI
+======================= */
+.map-ui {
+  position: absolute;
+  top: calc(var(--navbar-height) + 12px);
+  right: 12px;
+  z-index: 3000;
+}
+
+.map-info {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  z-index: 1000;
+}
+
+/* =======================
+   LAYER CONTROL
+======================= */
+.layer-control {
+  background: white;
+  padding: 14px 16px;
+  border-radius: 12px;
+  min-width: 200px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  font-size: 14px;
+}
+
+.layer-control h4 {
+  margin: 0 0 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.layer-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.layer-item input {
+  cursor: pointer;
+}
+
+/* =======================
+   INFO PANEL
+======================= */
+.info-panel {
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.3);
+  min-width: 150px;
+}
+
+/* =======================
+   POPUP
+======================= */
+.map-popup {
+  background: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  min-width: 200px;
+}
+
+/* OpenLayers popup arrow */
+.ol-popup:after,
+.ol-popup:before {
+  top: 100%;
+  border: solid transparent;
+  content: "";
+  position: absolute;
+}
+
+.ol-popup:after {
+  border-top-color: white;
+  border-width: 10px;
+  left: 20px;
+  margin-left: -10px;
+}
+
+.ol-popup:before {
+  border-top-color: #ccc;
+  border-width: 11px;
+  left: 20px;
+  margin-left: -11px;
+}
