@@ -12,3 +12,34 @@
 
   --font-primary: 'Merriweather', serif;
 }
+:root {
+  /* Palette Warna Utama */
+  --green-primary: #0B6623;
+  --green-dark: #074418;
+  --green-light: #e8f5e9;
+  --accent: #FFD700; /* Kuning/Emas */
+  
+  /* Text & BG */
+  --text-muted: #666666;
+  --bg-light: #f6fbf7;
+  --white: #ffffff;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+:root {
+  --green-primary: #0B6623;
+  --green-dark: #074418;
+  --green-light: #e8f5e9;
+  --accent: #FFD700;
+  --text-main: #2d3436;
+  --text-muted: #636e72;
+  --bg-light: #f9fbf9;
+  --font-main: 'Inter', sans-serif;
+}
+
+body {
+  font-family: var(--font-main);
+  color: var(--text-main);
+  background-color: var(--bg-light);
+}

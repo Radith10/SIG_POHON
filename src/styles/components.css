@@ -178,3 +178,33 @@ html, body, #root {
   opacity: 0.5;
   cursor: not-allowed;
 }
+/* Container Utama */
+.section {
+  padding: 80px 24px;
+}
+
+.section-light {
+  background-color: var(--bg-light);
+}
+
+/* Tombol Global */
+.btn-primary {
+  padding: 12px 28px;
+  background: var(--green-primary);
+  color: white;
+  border: none;
+  border-radius: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: var(--green-dark);
+  transform: translateY(-2px);
+}
+
+/* Page Offset (agar tidak tertutup Navbar fixed) */
+.page-offset {
+  margin-top: 70px; /* Sesuaikan tinggi navbarmu */
+}
