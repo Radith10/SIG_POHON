@@ -42,7 +42,9 @@ export default function Visualisasi() {
   const stats = useMemo(() => {
     const total = data.length;
 
-    const sehatItems = data.filter((d) => d.properties?.KONDISI?.trim() === "Sehat");
+    const sehatItems = data.filter(
+      (d) => d.properties?.KONDISI?.trim() === "Sehat"
+    );
     const tidakSehatItems = data.filter(
       (d) => d.properties?.KONDISI?.trim() === "Tidak Sehat"
     );
@@ -51,7 +53,9 @@ export default function Visualisasi() {
     const tidakSehat = tidakSehatItems.length;
 
     const sehatPct = total ? ((sehat / total) * 100).toFixed(1) : "0.0";
-    const tidakSehatPct = total ? ((tidakSehat / total) * 100).toFixed(1) : "0.0";
+    const tidakSehatPct = total
+      ? ((tidakSehat / total) * 100).toFixed(1)
+      : "0.0";
 
     // Top lokasi terbanyak
     const lokasiMap = {};
@@ -71,7 +75,9 @@ export default function Visualisasi() {
     };
 
     const avg = (arr) => {
-      const nums = arr.map((d) => parseNum(d.properties?.DIAMETER)).filter((n) => n != null);
+      const nums = arr
+        .map((d) => parseNum(d.properties?.DIAMETER))
+        .filter((n) => n != null);
       if (!nums.length) return 0;
       return nums.reduce((a, b) => a + b, 0) / nums.length;
     };
@@ -170,8 +176,9 @@ export default function Visualisasi() {
           <span className="vz-pill">Visualisasi & Grafik</span>
           <h1 className="vz-title">Kondisi Vegetasi & Pohon Peneduh</h1>
           <p className="vz-desc">
-            Halaman ini menampilkan grafik dan visualisasi kondisi vegetasi serta pohon peneduh
-            berdasarkan hasil analisis spasial untuk mendukung evaluasi lingkungan perkotaan.
+            Halaman ini menampilkan grafik dan visualisasi kondisi vegetasi
+            serta pohon peneduh berdasarkan hasil analisis spasial untuk
+            mendukung evaluasi lingkungan perkotaan.
           </p>
         </div>
       </section>
@@ -208,7 +215,11 @@ export default function Visualisasi() {
 
               <div className="vz-legend">
                 <LegendRow color="#22C55E" label="Sehat" value={stats.sehat} />
-                <LegendRow color="#EF4444" label="Tidak Sehat" value={stats.tidakSehat} />
+                <LegendRow
+                  color="#EF4444"
+                  label="Tidak Sehat"
+                  value={stats.tidakSehat}
+                />
                 <div className="vz-legend-total">
                   <span>Total</span>
                   <b>{stats.total}</b>
@@ -242,8 +253,8 @@ export default function Visualisasi() {
           </div>
 
           <p className="vz-note">
-            Catatan: Grafik ini membantu melihat kecenderungan ukuran pohon (diameter) berdasarkan
-            kondisi kesehatan vegetasi.
+            Catatan: Grafik ini membantu melihat kecenderungan ukuran pohon
+            (diameter) berdasarkan kondisi kesehatan vegetasi.
           </p>
         </div>
       </div>

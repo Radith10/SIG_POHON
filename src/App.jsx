@@ -11,6 +11,7 @@ const Visualisasi = lazy(() => import("./pages/Visualisasi"));
 const Insight = lazy(() => import("./pages/Insight"));
 const Contact = lazy(() => import("./pages/Contact"));
 const PetaDetail = lazy(() => import("./components/map/PetaDetail"));
+const Data = lazy(() => import("./pages/Dataset"));
 
 // Loading component
 function LoadingFallback() {
@@ -50,15 +51,11 @@ function LoadingFallback() {
 }
 
 export default function App() {
-
-
   return (
     <AppProvider>
       {" "}
-    
       <BrowserRouter>
         <div className="app-container">
-      
           <Navbar />
 
           <Suspense fallback={<LoadingFallback />}>
@@ -74,6 +71,7 @@ export default function App() {
               <Route path="/visualisasi" element={<Visualisasi />} />
               <Route path="/insight" element={<Insight />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="/dataset" element={<Data />} />
 
               {/* 404 Route */}
               <Route
