@@ -22,13 +22,12 @@ export default function Navbar() {
           <li>
             <NavLink to="/insight">Insight</NavLink>
           </li>
-           <li>
-            <NavLink to="/dataset">Dataset</NavLink>
-          </li>
           <li>
             <NavLink to="/contact">Contact</NavLink>
           </li>
-         
+          <li>
+            <NavLink to="/dataset">Dataset</NavLink>
+          </li>
         </ul>
       </div>
     </nav>

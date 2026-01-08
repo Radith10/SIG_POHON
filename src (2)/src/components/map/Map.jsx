@@ -80,7 +80,7 @@ const TEMA_CONFIG = {
 // Deskripsi fitur peta
 const MAP_FEATURES = [
   {
-    icon: "/icons/tree.png",
+    icon: "/icons/7.png",
     iconType: "image",
     title: "Marker Interaktif",
     desc: "Klik pada titik pohon untuk melihat informasi detail seperti jenis, diameter, kondisi, dan data suhu.",

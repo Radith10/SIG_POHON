@@ -18,46 +18,47 @@ export default function Contact() {
       {/* TEAM SECTION */}
       <section className="contact-section">
         <div className="team-grid">
-          <div className="team-card">
-             <img src="/images/rach.png" alt="Anggota 3" />
-            <h3>Radith</h3>
-           
-            <span>Frontend & UI</span>
-            <p>
-              Bertanggung jawab pada desain antarmuka, halaman Home, serta
-              integrasi visual frontend.
-            </p>
-          </div>
 
           <div className="team-card">
             <img src="/images/Jes.JPG" alt="Anggota 1" />
             <h3>Jessica</h3>
-            <span>WebGIS & Insight</span>
+            <span>Frontend & UI</span>
             <p>
-              Mengembangkan peta interaktif dan mengolah data vegetasi,
-              melakukan analisis spasial, serta menyusun insight hasil
-              penelitian.
+              Bertanggung jawab pada desain antarmuka, halaman Home,
+              serta integrasi visual frontend.
+            </p>
+          </div>
+
+          <div className="team-card">
+            <img src="/images/kha.png" alt="Anggota 2" />
+            <h3>Khairullah</h3>
+            <span>WebGIS & OpenLayers</span>
+            <p>
+              Mengembangkan peta interaktif, layer spasial,
+              dan fitur analisis berbasis SIG.
             </p>
           </div>
 
           <div className="team-card">
             <img src="/images/ELVI.png" alt="Anggota 3" />
             <h3>Elviana</h3>
-            <span>Filter Maps</span>
+            <span>Analisis Data</span>
             <p>
-              Membuat Fitur Data yang sudah di kelola pada bagian peta
-              interaktif.
+              Mengolah data vegetasi, melakukan analisis spasial,
+              serta menyusun insight hasil penelitian.
             </p>
           </div>
 
           <div className="team-card">
-           <img src="/images/kha.png" alt="Anggota 2" />
-            <h3>Khairullah</h3>
-            <span>Visualisasi & Dataset</span>
+            <img src="/images/team/anggota4.jpg" alt="Anggota 4" />
+            <h3>Nama Anggota 4</h3>
+            <span>Dokumentasi & Laporan</span>
             <p>
-              Menyusun laporan akademik, dokumentasi proyek, dan membuat visualisasi serta menu Dataset
+              Menyusun laporan akademik, dokumentasi proyek,
+              dan koordinasi presentasi.
             </p>
           </div>
+
         </div>
       </section>
     </div>

@@ -1,3 +1,6 @@
+/* Import Google Fonts - Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
 :root {
   --navbar-height: 60px;
 
@@ -10,5 +13,25 @@
   --text-dark: #1f1f1f;
   --text-muted: #555;
 
-  --font-primary: 'Merriweather', serif;
+  --font-primary: 'Montserrat', sans-serif;
+}
+
+/* Apply Montserrat globally */
+* {
+  font-family: var(--font-primary);
+}
+
+body {
+  font-family: var(--font-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-primary);
+  font-weight: 700;
+}
+
+p, span, a, li, button, input, textarea {
+  font-family: var(--font-primary);
 }
