@@ -1,132 +1,149 @@
-import React, { useEffect, useRef, useState } from "react";
-import "ol/ol.css";
-import Map from "ol/Map";
-import View from "ol/View";
-import TileLayer from "ol/layer/Tile";
-import OSM from "ol/source/OSM";
-import VectorLayer from "ol/layer/Vector";
-import VectorSource from "ol/source/Vector";
-import GeoJSON from "ol/format/GeoJSON";
-import Overlay from "ol/Overlay";
-import { fromLonLat } from "ol/proj";
-import { Style, Icon, Stroke, Fill } from "ol/style";
+import React, { useMemo, useState } from "react";
+import { useNavigate } from "react-router-dom";
+import "../../styles/peta.css";
+const DATA_URL = "/data/pohon_peneduh.json";
 
-import Popup from "./Popup";
-import LayerControls from "./LayerControls";
-import InfoPanel from "./InfoPanel";
+const TEMA_CONFIG = {
+  tematik: {
+    title: "Peta HeatMap Suhu",
+    description: "Visualisasi data pohon peneduh peta tematik",
+    icon: "🌲",
+    color: "#0B6623",
+    dataUrl: DATA_URL,
+  },
+  Humanitarian: {
+    title: "Peta Humanitarian",
+    description: "Visualisasi data pohon peneduh peta Humanitarian",
+    icon: "🌲",
+    color: "#0B6623",
+    dataUrl: DATA_URL,
+  },
+  basemap: {
+    title: "Peta Umum",
+    description: "Visualisasi data pohon peneduh peta Umum",
+    icon: "🌴",
+    color: "#0B6623",
+    dataUrl: DATA_URL,
+  },
+  petaSatelit: {
+    title: "Peta Satelit",
+    description: "Visualisasi data pohon peneduh peta Satelit",
+    icon: "🌴",
+    color: "#1976D2",
+    dataUrl: DATA_URL,
+  },
+  CyclOSM: {
+    title: "Peta CyclOSM",
+    description: "Visualisasi data pohon peneduh peta CyclOSM",
+    icon: "🌴",
+    color: "#1976D2",
+    dataUrl: DATA_URL,
+  },
 
-export default function MapComponent() {
-  const mapRef = useRef(null);
-  const popupRef = useRef(null);
-  const popupContentRef = useRef(null);
+  terrain: {
+    title: "Peta Terrain",
+    description: "Visualisasi data pohon peneduh peta Terrain",
+    icon: "🌴",
+    color: "#1976D2",
+    dataUrl: DATA_URL,
+  },
+  hybrid: {
+    title: "Peta Hybrid",
+    description: "Visualisasi data pohon peneduh peta Hybrid",
+    icon: "🌴",
+    color: "#1976D2",
+    dataUrl: DATA_URL,
+  },
+};
 
-  const [map, setMap] = useState(null);
-  const [infoText, setInfoText] = useState("");
-
-  useEffect(() => {
-    if (map) return;
-
-    const riauLayer = new VectorLayer({
-      source: new VectorSource({
-        url: "/data/polygon_riau.json",
-        format: new GeoJSON(),
-      }),
-      style: new Style({
-        stroke: new Stroke({ color: "#0078ff", width: 2 }),
-        fill: new Fill({ color: "rgba(0,120,255,0.15)" }),
-      }),
-    });
-
-    const banjirLayer = new VectorLayer({
-      source: new VectorSource({
-        url: "/data/banjir.json",
-        format: new GeoJSON(),
-      }),
-      style: new Style({
-        image: new Icon({
-          src: "/icon/flood.png",
-          scale: 0.08,
-          anchor: [0.5, 1],
-        }),
-      }),
-    });
-
-    const highlightLayer = new VectorLayer({
-      source: new VectorSource(),
-      style: new Style({
-        stroke: new Stroke({ color: "yellow", width: 3 }),
-      }),
-    });
-
-    const overlay = new Overlay({
-      element: popupRef.current,
-      positioning: "top-center",
-      offset: [0, -12],
-    });
-
-    const createdMap = new Map({
-      target: mapRef.current,
-      layers: [
-        new TileLayer({ source: new OSM() }),
-        riauLayer,
-        banjirLayer,
-        highlightLayer,
-      ],
-      overlays: [overlay],
-      view: new View({
-        center: fromLonLat([101.438309, 0.51044]),
-        zoom: 8,
-      }),
-    });
-
-    // CLICK POPUP
-    createdMap.on("singleclick", (evt) => {
-      const feature = createdMap.forEachFeatureAtPixel(evt.pixel, (f) => f);
-      if (feature) {
-        const nama = feature.get("DESA") || feature.get("Nama_Pemetaan") || "-";
-        const korban = feature.get("Jumlah_Korban") || "-";
-
-        popupContentRef.current.innerHTML = `
-          <h3>Informasi</h3>
-          <p><strong>${nama}</strong></p>
-          <p>Korban: ${korban}</p>`;
-        overlay.setPosition(evt.coordinate);
-      } else {
-        overlay.setPosition(undefined);
-      }
-    });
-
-    // HOVER INFO + HIGHLIGHT
-    let highlighted = null;
-    createdMap.on("pointermove", (evt) => {
-      if (evt.dragging) return;
-
-      const feature = createdMap.forEachFeatureAtPixel(evt.pixel, (f) => f);
-
-      if (highlighted !== feature) {
-        if (highlighted) highlightLayer.getSource().removeFeature(highlighted);
-        if (feature) highlightLayer.getSource().addFeature(feature);
-        highlighted = feature;
-      }
-
-      setInfoText(feature ? feature.get("DESA") || "" : "");
-    });
-
-    setMap(createdMap);
-  }, [map]);
+// Card Tema (lebih interaktif)
+function ThemeCard({ config, index, onClick }) {
+  const [pressed, setPressed] = useState(false);
 
   return (
-  <div className="map-wrapper">
-    <div ref={mapRef} className="map-canvas" />
+    <button
+      type="button"
+      className="theme-card"
+      onMouseDown={() => setPressed(true)}
+      onMouseUp={() => setPressed(false)}
+      onMouseLeave={() => setPressed(false)}
+      onClick={onClick}
+      style={{
+        "--card-color": config.color,
+        "--card-gradient": config.gradient,
+        "--card-delay": `${index * 70}ms`,
+        transform: pressed ? "translateY(-2px) scale(0.99)" : undefined,
+      }}
+      aria-label={`Buka ${config.title}`}
+    >
+      <span className="theme-card-gradient" aria-hidden="true" />
+      <span className="theme-card-shine" aria-hidden="true" />
 
-    <Popup popupRef={popupRef} popupContentRef={popupContentRef} />
+      <div className="theme-card-top">
+        <div className="theme-card-icon" aria-hidden="true">
+          {config.icon}
+        </div>
+        <div className="theme-card-badge">Interaktif</div>
+      </div>
 
-    <div className="map-ui">
-      <LayerControls map={map} />
+      <h3 className="theme-card-title">{config.title}</h3>
+      <p className="theme-card-description">{config.description}</p>
+
+      <div className="theme-card-actions">
+        <span className="theme-card-pill">Legend</span>
+        <span className="theme-card-pill">Popup</span>
+        <span className="theme-card-pill">Mode</span>
+      </div>
+
+      <div className="theme-card-button-container">
+        <span className="theme-card-button">Lihat Peta →</span>
+      </div>
+    </button>
+  );
+}
+
+// Halaman utama
+export default function PetaPage() {
+  const navigate = useNavigate();
+
+  const items = useMemo(() => Object.entries(TEMA_CONFIG), []);
+
+  const handleCardClick = (tema) => {
+    navigate(`/peta/${tema}`); // penting: ini yang memastikan tema benar
+  };
+
+  return (
+    <div className="peta-page">
+      <div className="peta-bg" aria-hidden="true" />
+
+      <header className="peta-header">
+        <h1>Pilih Peta </h1>
+        <p>
+          Jelajahi berbagai visualisasi data geografis untuk mendapatkan wawasan
+          mendalam. Klik kartu untuk membuka peta, lalu pilih mode sesuai
+          kebutuhan.
+        </p>
+      </header>
+
+      <section className="peta-cards-grid">
+        {items.map(([key, config], idx) => (
+          <ThemeCard
+            key={key}
+            config={config}
+            index={idx}
+            onClick={() => handleCardClick(key)}
+          />
+        ))}
+      </section>
+
+      <section className="peta-info-section">
+        <h3>✨ Tentang Peta Interaktif</h3>
+        <p>
+          Setiap peta punya legend, hover highlight, popup detail saat klik,
+          serta pilihan mode basemap (OSM / Dark / Light / Terrain / Satellite)
+          + Dark Mode UI.
+        </p>
+      </section>
     </div>
-
-    <div className="map-info">
-      <InfoPanel text={infoText} />
-    </div>
-  </div>
-)}
+  );
+}
