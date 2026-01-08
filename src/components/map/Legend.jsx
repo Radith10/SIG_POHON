@@ -56,7 +56,6 @@ export default function Legend({ isDarkMode = false }) {
           />
           <span>Pohon Bukan Peneduh</span>
         </div>
-
      
       </div>
     </div>

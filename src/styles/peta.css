@@ -1385,3 +1385,135 @@
     grid-template-columns: 1fr;
   }
 }
+.filter-popup {
+  position: absolute !important;
+  bottom: 100% !important; /* Muncul di atas tombol */
+  left: 0 !important;
+  margin-bottom: 12px; /* Jarak sedikit dari tombol filter */
+
+  width: 260px !important; /* Lebar kita kecilkan sedikit biar manis */
+  height: 380px !important; /* TINGGI FIXED sesuai request */
+
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+
+  /* KUNCI MAGIC: Flexbox agar header/footer diam, tengah scroll */
+  display: flex !important;
+  flex-direction: column !important;
+  overflow: hidden !important; /* Agar border radius tidak tertembus */
+  z-index: 10000;
+}
+
+.filter-popup-header {
+  flex-shrink: 0; /* Tidak boleh mengecil */
+  padding: 12px 15px !important;
+  border-bottom: 1px solid #f0f0f0;
+  background: #fff;
+}
+.filter-popup-header h3 {
+  font-size: 15px !important; /* Font judul diperkecil */
+  margin: 0;
+}
+
+.filter-popup-content {
+  flex-grow: 1; /* Mengisi sisa ruang kosong */
+  overflow-y: auto !important; /* Scroll jika konten panjang */
+  padding: 10px 15px !important;
+
+  /* Styling Scrollbar agar tipis dan cantik */
+  scrollbar-width: thin;
+  scrollbar-color: #ccc transparent;
+}
+
+/* Style Scrollbar untuk Chrome/Safari/Edge */
+.filter-popup-content::-webkit-scrollbar {
+  width: 6px;
+}
+.filter-popup-content::-webkit-scrollbar-thumb {
+  background-color: #ddd;
+  border-radius: 10px;
+}
+
+.filter-section {
+  margin-bottom: 15px !important;
+}
+
+.filter-section-title {
+  font-size: 12px !important;
+  text-transform: uppercase;
+  color: #888;
+  margin-bottom: 8px !important;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.filter-checkbox-label {
+  padding: 4px 0 !important; /* Kurangi padding atas-bawah */
+  margin-bottom: 2px !important;
+  font-size: 13px !important;
+  color: #333;
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Jarak icon ke teks */
+}
+
+/* Perkecil Icon-icon */
+.filter-icon-img,
+.filter-temp-indicator,
+.filter-status-dot {
+  width: 18px !important;
+  height: 18px !important;
+  font-size: 16px !important; /* Untuk emoji */
+  object-fit: contain;
+}
+
+/* Custom Checkbox kotak */
+.checkbox-custom {
+  width: 16px !important;
+  height: 16px !important;
+  border-radius: 4px !important;
+}
+
+.filter-popup-footer {
+  flex-shrink: 0; /* Tidak boleh mengecil */
+  padding: 10px 15px !important;
+  border-top: 1px solid #f0f0f0;
+  background: #f9f9f9;
+}
+
+.filter-reset-btn {
+  padding: 8px 0 !important;
+  font-size: 13px !important;
+  border-radius: 6px !important;
+}
+
+.ui-stack-left {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  pointer-events: none;
+}
+
+.ui-stack-left > div {
+  pointer-events: auto;
+  position: relative !important;
+  display: block !important;
+  top: auto !important;
+  right: auto !important;
+  bottom: auto !important;
+  left: auto !important;
+  margin: 0 !important;
+}
+
+.ui-stack-left .stack-item-legend > * {
+  position: relative !important;
+  bottom: auto !important;
+  left: auto !important;
+  margin: 0 !important;
+}
