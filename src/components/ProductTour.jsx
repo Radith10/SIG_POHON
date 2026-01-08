@@ -8,7 +8,7 @@ const defaultTourSteps = [
   {
     id: "navbar",
     selector: ".navbar",
-    title: "🧭 Navigasi Utama",
+    title: " Navigasi Utama",
     description:
       "Ini adalah navbar utama. Di sini kamu bisa mengakses semua menu website seperti Home, Peta, Visualisasi, Insight, dan halaman lainnya.",
     position: "bottom",
@@ -16,15 +16,14 @@ const defaultTourSteps = [
   {
     id: "navbar-logo",
     selector: ".navbar-logo",
-    title: "🏠 Logo ProyekSIG",
-    description:
-      "Klik logo ini kapanpun untuk kembali ke halaman utama.",
+    title: " Logo ProyekSIG",
+    description: "Klik logo ini kapanpun untuk kembali ke halaman utama.",
     position: "bottom",
   },
   {
     id: "navbar-menu",
     selector: ".navbar-menu",
-    title: "📋 Menu Navigasi",
+    title: " Menu Navigasi",
     description:
       "Menu lengkap untuk menjelajahi website: Peta, Visualisasi, Insight, Contact, dan Dataset.",
     position: "bottom",
@@ -32,7 +31,7 @@ const defaultTourSteps = [
   {
     id: "hero-content",
     selector: ".hero-content",
-    title: "🌿 Selamat Datang!",
+    title: " Selamat Datang!",
     description:
       "Hero section menampilkan informasi utama tentang proyek analisis vegetasi perkotaan berbasis Sistem Informasi Geografis.",
     position: "bottom",
@@ -40,7 +39,7 @@ const defaultTourSteps = [
   {
     id: "hero-button",
     selector: ".hero-button",
-    title: "🗺️ Eksplorasi Peta",
+    title: " Eksplorasi Peta",
     description:
       "Klik tombol ini untuk masuk ke halaman peta interaktif dan menjelajahi data pohon peneduh.",
     position: "bottom",
@@ -48,7 +47,7 @@ const defaultTourSteps = [
   {
     id: "home-cta",
     selector: ".home-cta",
-    title: "⚡ Tombol Aksi",
+    title: " Tombol Aksi",
     description:
       "Tombol-tombol ini tersebar di website untuk navigasi cepat ke halaman yang relevan.",
     position: "top",
@@ -56,7 +55,7 @@ const defaultTourSteps = [
   {
     id: "chatbot",
     selector: ".chatbot-toggle",
-    title: "💬 Asisten Virtual",
+    title: " Asisten Virtual",
     description:
       "Butuh bantuan? Klik icon chat untuk membuka chatbot yang siap menjawab pertanyaanmu!",
     position: "left",
@@ -115,7 +114,7 @@ export default function ProductTour({
       setTargetRect(null);
       document.body.style.overflow = "";
       markTourCompleted();
-      
+
       if (completed) {
         onComplete?.();
       } else {
@@ -352,7 +351,9 @@ export default function ProductTour({
       {/* Tooltip */}
       <div
         ref={tooltipRef}
-        className={`tour-tooltip ${isAnimating ? "tour-tooltip-animate" : ""} tour-tooltip-${step?.position || "bottom"}`}
+        className={`tour-tooltip ${
+          isAnimating ? "tour-tooltip-animate" : ""
+        } tour-tooltip-${step?.position || "bottom"}`}
         style={tooltipStyle}
         onAnimationEnd={() => setIsAnimating(false)}
       >
@@ -392,7 +393,14 @@ export default function ProductTour({
               onClick={handleBack}
               disabled={currentStep === 0}
             >
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+              >
                 <path d="M15 18l-6-6 6-6" />
               </svg>
               Kembali
@@ -400,7 +408,14 @@ export default function ProductTour({
 
             <button className="tour-btn tour-btn-next" onClick={handleNext}>
               {currentStep === steps.length - 1 ? "Selesai" : "Lanjut"}
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+              >
                 <path d="M9 18l6-6-6-6" />
               </svg>
             </button>
@@ -452,7 +467,14 @@ export function TourTriggerButton({ onClick, className = "" }) {
       onClick={onClick}
       title="Mulai Product Tour"
     >
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+      <svg
+        width="18"
+        height="18"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2"
+      >
         <circle cx="12" cy="12" r="10" />
         <path d="M12 16v-4" />
         <path d="M12 8h.01" />
