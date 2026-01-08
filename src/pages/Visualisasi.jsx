@@ -41,32 +41,60 @@ export default function Visualisasi() {
 
   const stats = useMemo(() => {
     const total = data.length;
-    const sehat = data.filter((d) => d.properties?.KONDISI?.trim() === "Sehat").length;
-    const tidakSehat = data.filter((d) => d.properties?.KONDISI?.trim() === "Tidak Sehat").length;
 
+    const sehatItems = data.filter((d) => d.properties?.KONDISI?.trim() === "Sehat");
+    const tidakSehatItems = data.filter(
+      (d) => d.properties?.KONDISI?.trim() === "Tidak Sehat"
+    );
+
+    const sehat = sehatItems.length;
+    const tidakSehat = tidakSehatItems.length;
+
+    const sehatPct = total ? ((sehat / total) * 100).toFixed(1) : "0.0";
+    const tidakSehatPct = total ? ((tidakSehat / total) * 100).toFixed(1) : "0.0";
+
+    // Top lokasi terbanyak
     const lokasiMap = {};
     data.forEach((d) => {
-      const lokasi = (d.properties?.LOKASI || "Tidak diketahui").trim();
-      lokasiMap[lokasi] = (lokasiMap[lokasi] || 0) + 1;
+      const lok = (d.properties?.LOKASI || "Tidak diketahui").trim();
+      lokasiMap[lok] = (lokasiMap[lok] || 0) + 1;
     });
 
     const lokasiSorted = Object.entries(lokasiMap)
       .sort((a, b) => b[1] - a[1])
       .slice(0, 8);
 
+    // Rata-rata diameter per kondisi (analisis tambahan)
+    const parseNum = (x) => {
+      const n = Number(String(x ?? "").replace(",", "."));
+      return Number.isFinite(n) ? n : null;
+    };
+
+    const avg = (arr) => {
+      const nums = arr.map((d) => parseNum(d.properties?.DIAMETER)).filter((n) => n != null);
+      if (!nums.length) return 0;
+      return nums.reduce((a, b) => a + b, 0) / nums.length;
+    };
+
+    const avgSehat = avg(sehatItems);
+    const avgTidakSehat = avg(tidakSehatItems);
+
     return {
       total,
       sehat,
       tidakSehat,
+      sehatPct,
+      tidakSehatPct,
       lokasiLabels: lokasiSorted.map((x) => x[0]),
       lokasiValues: lokasiSorted.map((x) => x[1]),
+      avgSehat: Number(avgSehat.toFixed(1)),
+      avgTidakSehat: Number(avgTidakSehat.toFixed(1)),
     };
   }, [data]);
 
-  if (loading) {
-    return <div className="vz-loading">Memuat data vegetasi...</div>;
-  }
+  if (loading) return <div className="vz-loading">Memuat visualisasi...</div>;
 
+  // Donut kondisi
   const donutData = {
     labels: ["Sehat", "Tidak Sehat"],
     datasets: [
@@ -75,32 +103,57 @@ export default function Visualisasi() {
         backgroundColor: ["#22C55E", "#EF4444"],
         borderColor: ["#86EFAC", "#FCA5A5"],
         borderWidth: 1,
-        hoverOffset: 8,
+        hoverOffset: 10,
       },
     ],
   };
 
   const donutOptions = {
     responsive: true,
-    cutout: "70%",
+    cutout: "72%",
     plugins: { legend: { display: false } },
   };
 
-  const barData = {
+  // Bar lokasi
+  const barLokasiData = {
     labels: stats.lokasiLabels,
     datasets: [
       {
         label: "Jumlah Pohon",
         data: stats.lokasiValues,
-        backgroundColor: "rgba(11, 102, 35, 0.35)",
+        backgroundColor: "rgba(11, 102, 35, 0.25)",
         borderColor: "#0B6623",
         borderWidth: 1,
-        borderRadius: 10,
+        borderRadius: 12,
       },
     ],
   };
 
-  const barOptions = {
+  const barLokasiOptions = {
+    responsive: true,
+    plugins: { legend: { display: false } },
+    scales: {
+      x: { grid: { display: false } },
+      y: { grid: { color: "rgba(0,0,0,0.06)" } },
+    },
+  };
+
+  // Bar rata-rata diameter per kondisi
+  const barDiameterData = {
+    labels: ["Sehat", "Tidak Sehat"],
+    datasets: [
+      {
+        label: "Rata-rata Diameter (cm)",
+        data: [stats.avgSehat, stats.avgTidakSehat],
+        backgroundColor: ["rgba(34,197,94,0.25)", "rgba(239,68,68,0.25)"],
+        borderColor: ["#22C55E", "#EF4444"],
+        borderWidth: 1,
+        borderRadius: 12,
+      },
+    ],
+  };
+
+  const barDiameterOptions = {
     responsive: true,
     plugins: { legend: { display: false } },
     scales: {
@@ -114,8 +167,8 @@ export default function Visualisasi() {
       {/* HERO */}
       <section className="vz-hero">
         <div className="vz-hero-inner">
-          <span className="vz-pill">Dashboard Analisis Spasial</span>
-          <h1 className="vz-title">Visualisasi Kondisi Vegetasi & Pohon Peneduh</h1>
+          <span className="vz-pill">Visualisasi & Grafik</span>
+          <h1 className="vz-title">Kondisi Vegetasi & Pohon Peneduh</h1>
           <p className="vz-desc">
             Halaman ini menampilkan grafik dan visualisasi kondisi vegetasi serta pohon peneduh
             berdasarkan hasil analisis spasial untuk mendukung evaluasi lingkungan perkotaan.
@@ -127,15 +180,24 @@ export default function Visualisasi() {
         {/* STAT */}
         <div className="vz-stat-grid">
           <StatCard title="Total Data" value={stats.total} tone="primary" />
-          <StatCard title="Pohon Sehat" value={stats.sehat} tone="success" />
-          <StatCard title="Pohon Tidak Sehat" value={stats.tidakSehat} tone="danger" />
+          <StatCard
+            title="Sehat"
+            value={`${stats.sehat} (${stats.sehatPct}%)`}
+            tone="success"
+          />
+          <StatCard
+            title="Tidak Sehat"
+            value={`${stats.tidakSehat} (${stats.tidakSehatPct}%)`}
+            tone="danger"
+          />
         </div>
 
-        {/* CHARTS */}
+        {/* CHART GRID */}
         <div className="vz-grid2">
+          {/* Donut */}
           <div className="vz-panel">
             <div className="vz-panel-head">
-              <h3>Kondisi Vegetasi</h3>
+              <h3>Distribusi Kondisi</h3>
               <span>Sehat vs Tidak Sehat</span>
             </div>
 
@@ -155,61 +217,34 @@ export default function Visualisasi() {
             </div>
           </div>
 
+          {/* Bar lokasi */}
           <div className="vz-panel">
             <div className="vz-panel-head">
-              <h3>Sebaran Pohon per Lokasi</h3>
+              <h3>Sebaran per Lokasi</h3>
               <span>Top 8 lokasi terbanyak</span>
             </div>
 
             <div className="vz-bar">
-              <Bar data={barData} options={barOptions} />
+              <Bar data={barLokasiData} options={barLokasiOptions} />
             </div>
           </div>
         </div>
 
-        {/* TABLE */}
+        {/* ANALISIS TAMBAHAN */}
         <div className="vz-panel">
           <div className="vz-panel-head">
-            <h3>Data Mentah Pohon Peneduh</h3>
-            <span>Sumber: Survey Lapangan</span>
+            <h3>Rata-rata Diameter per Kondisi</h3>
+            <span>Indikasi kualitas vegetasi</span>
           </div>
 
-          <div className="vz-table-wrap">
-            <table className="vz-table">
-              <thead>
-                <tr>
-                  <th>No</th>
-                  <th>Lokasi</th>
-                  <th>Jenis</th>
-                  <th>Diameter (cm)</th>
-                  <th>Kondisi</th>
-                  <th>Latitude</th>
-                  <th>Longitude</th>
-                </tr>
-              </thead>
-              <tbody>
-                {data.map((item, i) => {
-                  const kondisi = item.properties?.KONDISI?.trim();
-                  const isSehat = kondisi === "Sehat";
-                  return (
-                    <tr key={i}>
-                      <td>{i + 1}</td>
-                      <td>{item.properties?.LOKASI}</td>
-                      <td>{item.properties?.JENIS}</td>
-                      <td>{item.properties?.DIAMETER}</td>
-                      <td>
-                        <span className={`vz-badge ${isSehat ? "ok" : "bad"}`}>
-                          {kondisi}
-                        </span>
-                      </td>
-                      <td>{item.geometry?.coordinates?.[1]}</td>
-                      <td>{item.geometry?.coordinates?.[0]}</td>
-                    </tr>
-                  );
-                })}
-              </tbody>
-            </table>
+          <div className="vz-bar">
+            <Bar data={barDiameterData} options={barDiameterOptions} />
           </div>
+
+          <p className="vz-note">
+            Catatan: Grafik ini membantu melihat kecenderungan ukuran pohon (diameter) berdasarkan
+            kondisi kesehatan vegetasi.
+          </p>
         </div>
       </div>
     </div>
