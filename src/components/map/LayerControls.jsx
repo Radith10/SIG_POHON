@@ -1,3 +1,4 @@
+// LayerControls.jsx
 export default function LayerControls({ map }) {
   const handleToggle = (layerIndex) => {
     if (!map) return;
@@ -24,7 +25,7 @@ export default function LayerControls({ map }) {
           defaultChecked
           onChange={() => handleToggle(2)}
         />
-        <span>Titik Banjir</span>
+        <span>Pohon Peneduh</span>
       </label>
     </div>
   );
