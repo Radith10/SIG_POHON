@@ -50,16 +50,15 @@ function LoadingFallback() {
 }
 
 export default function App() {
-  // ✅ TIDAK ADA useState di sini!
-  // ✅ State sudah ada di AppContext.jsx
+
 
   return (
     <AppProvider>
       {" "}
-      {/* ✅ Provider membungkus semua komponen */}
+    
       <BrowserRouter>
         <div className="app-container">
-          {/* ✅ Navbar akan ambil isDarkMode dari Context */}
+      
           <Navbar />
 
           <Suspense fallback={<LoadingFallback />}>
