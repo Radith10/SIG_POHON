@@ -1,2380 +1,2083 @@
 {
-  "type" : "FeatureCollection",
-  "features" : [
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.42106,
-          0.57201999999999997
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Barat",
-        "JENIS" : "P",
-        "DIAMETER" : "158",
-        "SUHU SEKITAR \nPOHON" : 35.100000000000001,
-        "SUHU DILUAR \nPOHON" : 36.100000000000001,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 0.5,
-        "Latitude (Y)" : "0.57202N",
-        "Longitude (X)" : "101.42106E",
-        "Latitude (Y)_D" : 0.57201999999999997,
-        "Longitude (X)_D" : 101.42106
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.42103,
-          0.57208999999999999
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Barat",
-        "JENIS" : "P",
-        "DIAMETER" : "93",
-        "SUHU SEKITAR \nPOHON" : 36.799999999999997,
-        "SUHU DILUAR \nPOHON" : 41.299999999999997,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 0.52000000000000002,
-        "Latitude (Y)" : "0.57209N",
-        "Longitude (X)" : "101.42103E",
-        "Latitude (Y)_D" : 0.57208999999999999,
-        "Longitude (X)_D" : 101.42103
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.42103,
-          0.57213000000000003
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Barat",
-        "JENIS" : "P",
-        "DIAMETER" : "163",
-        "SUHU SEKITAR \nPOHON" : 41,
-        "SUHU DILUAR \nPOHON" : 41.200000000000003,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 0.58999999999999997,
-        "Latitude (Y)" : "0.57213N",
-        "Longitude (X)" : "101.42103E",
-        "Latitude (Y)_D" : 0.57213000000000003,
-        "Longitude (X)_D" : 101.42103
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.42095999999999,
-          0.57213000000000003
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Barat",
-        "JENIS" : "P",
-        "DIAMETER" : "216",
-        "SUHU SEKITAR \nPOHON" : 36.700000000000003,
-        "SUHU DILUAR \nPOHON" : 41.600000000000001,
-        "JUMLAH" : 1,
-        "KONDISI" : "Tidak Sehat",
-        "JARAK DARI \nJALAN (m)" : 0.59999999999999998,
-        "Latitude (Y)" : "0.57213N",
-        "Longitude (X)" : "101.42096E",
-        "Latitude (Y)_D" : 0.57213000000000003,
-        "Longitude (X)_D" : 101.42095999999999
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.4208,
-          0.57237000000000005
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Barat",
-        "JENIS" : "P",
-        "DIAMETER" : "194",
-        "SUHU SEKITAR \nPOHON" : 36.200000000000003,
-        "SUHU DILUAR \nPOHON" : 41.799999999999997,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 0.82999999999999996,
-        "Latitude (Y)" : "0.57237N",
-        "Longitude (X)" : "101.42080E",
-        "Latitude (Y)_D" : 0.57237000000000005,
-        "Longitude (X)_D" : 101.4208
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.41947,
-          0.57265999999999995
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Barat",
-        "JENIS" : "BP",
-        "DIAMETER" : "172",
-        "SUHU SEKITAR \nPOHON" : 38.200000000000003,
-        "SUHU DILUAR \nPOHON" : 42.700000000000003,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 0.59999999999999998,
-        "Latitude (Y)" : "0.57266N",
-        "Longitude (X)" : "101.41947E",
-        "Latitude (Y)_D" : 0.57265999999999995,
-        "Longitude (X)_D" : 101.41947
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.41934000000001,
-          0.57299999999999995
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Barat",
-        "JENIS" : "BP",
-        "DIAMETER" : "80",
-        "SUHU SEKITAR \nPOHON" : 38.600000000000001,
-        "SUHU DILUAR \nPOHON" : 40.600000000000001,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 0.20000000000000001,
-        "Latitude (Y)" : "0.57300N",
-        "Longitude (X)" : "101.41934E",
-        "Latitude (Y)_D" : 0.57299999999999995,
-        "Longitude (X)_D" : 101.41934000000001
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.42927,
-          0.57316
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Barat",
-        "JENIS" : "P",
-        "DIAMETER" : "210",
-        "SUHU SEKITAR \nPOHON" : 38.700000000000003,
-        "SUHU DILUAR \nPOHON" : 41.600000000000001,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 0.56000000000000005,
-        "Latitude (Y)" : "0.57316N",
-        "Longitude (X)" : "101.42927E",
-        "Latitude (Y)_D" : 0.57316,
-        "Longitude (X)_D" : 101.42927
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.41916000000001,
-          0.57367000000000001
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Barat",
-        "JENIS" : "P",
-        "DIAMETER" : "47",
-        "SUHU SEKITAR \nPOHON" : 38.700000000000003,
-        "SUHU DILUAR \nPOHON" : 41.5,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 0.47999999999999998,
-        "Latitude (Y)" : "0.57367N",
-        "Longitude (X)" : "101.41916E",
-        "Latitude (Y)_D" : 0.57367000000000001,
-        "Longitude (X)_D" : 101.41916000000001
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.418886,
-          0.57367999999999997
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Barat",
-        "JENIS" : "P",
-        "DIAMETER" : "50.6",
-        "SUHU SEKITAR \nPOHON" : 37.899999999999999,
-        "SUHU DILUAR \nPOHON" : 41.700000000000003,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 1.8300000000000001,
-        "Latitude (Y)" : "0.57368N",
-        "Longitude (X)" : "101.418886E",
-        "Latitude (Y)_D" : 0.57367999999999997,
-        "Longitude (X)_D" : 101.418886
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.41885000000001,
-          0.57425999999999999
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Barat",
-        "JENIS" : "P",
-        "DIAMETER" : "70.2",
-        "SUHU SEKITAR \nPOHON" : 36.200000000000003,
-        "SUHU DILUAR \nPOHON" : 42.100000000000001,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 2.2000000000000002,
-        "Latitude (Y)" : "0.57426N",
-        "Longitude (X)" : "101.41885E",
-        "Latitude (Y)_D" : 0.57425999999999999,
-        "Longitude (X)_D" : 101.41885000000001
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.41864,
-          0.57464999999999999
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Barat",
-        "JENIS" : "BP",
-        "DIAMETER" : "231.2",
-        "SUHU SEKITAR \nPOHON" : 36.200000000000003,
-        "SUHU DILUAR \nPOHON" : 42.700000000000003,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat ",
-        "JARAK DARI \nJALAN (m)" : 0.72999999999999998,
-        "Latitude (Y)" : "0.57465N",
-        "Longitude (X)" : "101.41864E",
-        "Latitude (Y)_D" : 0.57464999999999999,
-        "Longitude (X)_D" : 101.41864
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.4786,
-          0.57464999999999999
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Barat",
-        "JENIS" : "P",
-        "DIAMETER" : "105.9",
-        "SUHU SEKITAR \nPOHON" : 36.200000000000003,
-        "SUHU DILUAR \nPOHON" : 41.700000000000003,
-        "JUMLAH" : 1,
-        "KONDISI" : "Tidak Sehat",
-        "JARAK DARI \nJALAN (m)" : 0.34999999999999998,
-        "Latitude (Y)" : "0.57465N",
-        "Longitude (X)" : "101.47860E",
-        "Latitude (Y)_D" : 0.57464999999999999,
-        "Longitude (X)_D" : 101.4786
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.41849999999999,
-          0.57467000000000001
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Barat",
-        "JENIS" : "P",
-        "DIAMETER" : "99.5",
-        "SUHU SEKITAR \nPOHON" : 36.5,
-        "SUHU DILUAR \nPOHON" : 42.600000000000001,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 0.67000000000000004,
-        "Latitude (Y)" : "0.57467N",
-        "Longitude (X)" : "101.41850E",
-        "Latitude (Y)_D" : 0.57467000000000001,
-        "Longitude (X)_D" : 101.41849999999999
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.41842,
-          0.57460999999999995
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Barat",
-        "JENIS" : "BP",
-        "DIAMETER" : "101.6",
-        "SUHU SEKITAR \nPOHON" : 40.600000000000001,
-        "SUHU DILUAR \nPOHON" : 41.5,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 0.52000000000000002,
-        "Latitude (Y)" : "0.57461N",
-        "Longitude (X)" : "101.41842E",
-        "Latitude (Y)_D" : 0.57460999999999995,
-        "Longitude (X)_D" : 101.41842
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.41847,
-          0.57480100000000001
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Barat",
-        "JENIS" : "P",
-        "DIAMETER" : "193.4",
-        "SUHU SEKITAR \nPOHON" : 36.100000000000001,
-        "SUHU DILUAR \nPOHON" : 41.200000000000003,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 2.1000000000000001,
-        "Latitude (Y)" : "0.574801N",
-        "Longitude (X)" : "101.41847E",
-        "Latitude (Y)_D" : 0.57480100000000001,
-        "Longitude (X)_D" : 101.41847
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.41808,
-          0.57425999999999999
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Barat",
-        "JENIS" : "P",
-        "DIAMETER" : "178.9",
-        "SUHU SEKITAR \nPOHON" : 36.100000000000001,
-        "SUHU DILUAR \nPOHON" : 42.799999999999997,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 0.93999999999999995,
-        "Latitude (Y)" : "0.57426N",
-        "Longitude (X)" : "101.41808E",
-        "Latitude (Y)_D" : 0.57425999999999999,
-        "Longitude (X)_D" : 101.41808
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.41813999999999,
-          0.57523999999999997
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Barat",
-        "JENIS" : "BP",
-        "DIAMETER" : "350.4",
-        "SUHU SEKITAR \nPOHON" : 36,
-        "SUHU DILUAR \nPOHON" : 38.5,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 1.8,
-        "Latitude (Y)" : "0.57524N",
-        "Longitude (X)" : "101.41814E",
-        "Latitude (Y)_D" : 0.57523999999999997,
-        "Longitude (X)_D" : 101.41813999999999
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.41813,
-          0.57535999999999998
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Barat",
-        "JENIS" : "BP",
-        "DIAMETER" : "40.3",
-        "SUHU SEKITAR \nPOHON" : 36.200000000000003,
-        "SUHU DILUAR \nPOHON" : 42.700000000000003,
-        "JUMLAH" : 1,
-        "KONDISI" : "Tidak Sehat",
-        "JARAK DARI \nJALAN (m)" : 2.7000000000000002,
-        "Latitude (Y)" : "0.57536N",
-        "Longitude (X)" : "101.41813E",
-        "Latitude (Y)_D" : 0.57535999999999998,
-        "Longitude (X)_D" : 101.41813
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.41818000000001,
-          0.57543999999999995
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Barat",
-        "JENIS" : "BP",
-        "DIAMETER" : "171.5",
-        "SUHU SEKITAR \nPOHON" : 36.100000000000001,
-        "SUHU DILUAR \nPOHON" : 40.149999999999999,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 1.73,
-        "Latitude (Y)" : "0.57544N",
-        "Longitude (X)" : "101.41818E",
-        "Latitude (Y)_D" : 0.57543999999999995,
-        "Longitude (X)_D" : 101.41818000000001
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.41804999999999,
-          0.57479999999999998
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Barat",
-        "JENIS" : "BP",
-        "DIAMETER" : "95.6",
-        "SUHU SEKITAR \nPOHON" : 36.100000000000001,
-        "SUHU DILUAR \nPOHON" : 37.399999999999999,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 1.78,
-        "Latitude (Y)" : "0.5748N",
-        "Longitude (X)" : "101.41805E",
-        "Latitude (Y)_D" : 0.57479999999999998,
-        "Longitude (X)_D" : 101.41804999999999
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.41799,
-          0.57357999999999998
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Barat",
-        "JENIS" : "BP",
-        "DIAMETER" : "101.4",
-        "SUHU SEKITAR \nPOHON" : 35.399999999999999,
-        "SUHU DILUAR \nPOHON" : 37,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 3.5,
-        "Latitude (Y)" : "0.57358N",
-        "Longitude (X)" : "101.41799E",
-        "Latitude (Y)_D" : 0.57357999999999998,
-        "Longitude (X)_D" : 101.41799
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.41803,
-          0.575484
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Barat",
-        "JENIS" : "P",
-        "DIAMETER" : "95.8",
-        "SUHU SEKITAR \nPOHON" : 36.200000000000003,
-        "SUHU DILUAR \nPOHON" : 38.700000000000003,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 4.2000000000000002,
-        "Latitude (Y)" : "0.575484N",
-        "Longitude (X)" : "101.418030E",
-        "Latitude (Y)_D" : 0.575484,
-        "Longitude (X)_D" : 101.41803
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.418009,
-          0.57566200000000001
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Barat",
-        "JENIS" : "BP",
-        "DIAMETER" : "120.2",
-        "SUHU SEKITAR \nPOHON" : 36.200000000000003,
-        "SUHU DILUAR \nPOHON" : 38,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 6.5,
-        "Latitude (Y)" : "0.575662N",
-        "Longitude (X)" : "101.418009E",
-        "Latitude (Y)_D" : 0.57566200000000001,
-        "Longitude (X)_D" : 101.418009
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.417947,
-          0.57588899999999998
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Barat",
-        "JENIS" : "BP",
-        "DIAMETER" : "208.3",
-        "SUHU SEKITAR \nPOHON" : 36.100000000000001,
-        "SUHU DILUAR \nPOHON" : 42.600000000000001,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 3.3999999999999999,
-        "Latitude (Y)" : "0.575889N",
-        "Longitude (X)" : "101.417947E",
-        "Latitude (Y)_D" : 0.57588899999999998,
-        "Longitude (X)_D" : 101.417947
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.417885,
-          0.57644200000000001
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Barat",
-        "JENIS" : "P",
-        "DIAMETER" : "34.3",
-        "SUHU SEKITAR \nPOHON" : 36.100000000000001,
-        "SUHU DILUAR \nPOHON" : 41.200000000000003,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 3.6000000000000001,
-        "Latitude (Y)" : "0.576442N",
-        "Longitude (X)" : "101.417885E",
-        "Latitude (Y)_D" : 0.57644200000000001,
-        "Longitude (X)_D" : 101.417885
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.41785,
-          0.57668200000000003
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Barat",
-        "JENIS" : "P",
-        "DIAMETER" : "116.8",
-        "SUHU SEKITAR \nPOHON" : 36.200000000000003,
-        "SUHU DILUAR \nPOHON" : 38.899999999999999,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 4.2000000000000002,
-        "Latitude (Y)" : "0.576682N",
-        "Longitude (X)" : "101.417850E",
-        "Latitude (Y)_D" : 0.57668200000000003,
-        "Longitude (X)_D" : 101.41785
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.419372,
-          0.57248600000000005
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Barat",
-        "JENIS" : "P",
-        "DIAMETER" : "215.3",
-        "SUHU SEKITAR \nPOHON" : 36,
-        "SUHU DILUAR \nPOHON" : 34.799999999999997,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 1.5600000000000001,
-        "Latitude (Y)" : "0.572486N",
-        "Longitude (X)" : "101.419372E",
-        "Latitude (Y)_D" : 0.57248600000000005,
-        "Longitude (X)_D" : 101.419372
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.41921600000001,
-          0.572461
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Barat",
-        "JENIS" : "P",
-        "DIAMETER" : "230.5",
-        "SUHU SEKITAR \nPOHON" : 36.299999999999997,
-        "SUHU DILUAR \nPOHON" : 41.899999999999999,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 1.5900000000000001,
-        "Latitude (Y)" : "0.572461N",
-        "Longitude (X)" : "101.419216E",
-        "Latitude (Y)_D" : 0.572461,
-        "Longitude (X)_D" : 101.41921600000001
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.41916399999999,
-          0.57247099999999995
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Barat",
-        "JENIS" : "P",
-        "DIAMETER" : "118.6",
-        "SUHU SEKITAR \nPOHON" : 36.100000000000001,
-        "SUHU DILUAR \nPOHON" : 41.600000000000001,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 1.54,
-        "Latitude (Y)" : "0.572471N",
-        "Longitude (X)" : "101.419164E",
-        "Latitude (Y)_D" : 0.57247099999999995,
-        "Longitude (X)_D" : 101.41916399999999
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.41909800000001,
-          0.57246300000000006
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Barat",
-        "JENIS" : "BP",
-        "DIAMETER" : "85.4",
-        "SUHU SEKITAR \nPOHON" : 36.200000000000003,
-        "SUHU DILUAR \nPOHON" : 41.399999999999999,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 1.6200000000000001,
-        "Latitude (Y)" : "0.572463N",
-        "Longitude (X)" : "101.419098E",
-        "Latitude (Y)_D" : 0.57246300000000006,
-        "Longitude (X)_D" : 101.41909800000001
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.419056,
-          0.57246200000000003
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Barat",
-        "JENIS" : "P",
-        "DIAMETER" : "98.2",
-        "SUHU SEKITAR \nPOHON" : 38.399999999999999,
-        "SUHU DILUAR \nPOHON" : 42.700000000000003,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 1.4199999999999999,
-        "Latitude (Y)" : "0.572462N",
-        "Longitude (X)" : "101.419056E",
-        "Latitude (Y)_D" : 0.57246200000000003,
-        "Longitude (X)_D" : 101.419056
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.418324,
-          0.57252800000000004
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Barat",
-        "JENIS" : "P",
-        "DIAMETER" : "298.5",
-        "SUHU SEKITAR \nPOHON" : 36.100000000000001,
-        "SUHU DILUAR \nPOHON" : 38,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 1.2,
-        "Latitude (Y)" : "0.572528N",
-        "Longitude (X)" : "101.418324E",
-        "Latitude (Y)_D" : 0.57252800000000004,
-        "Longitude (X)_D" : 101.418324
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.44940099999999,
-          0.56104600000000004
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Barat",
-        "JENIS" : "P",
-        "DIAMETER" : "101.5",
-        "SUHU SEKITAR \nPOHON" : 36.200000000000003,
-        "SUHU DILUAR \nPOHON" : 38.799999999999997,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 1.3,
-        "Latitude (Y)" : "0.561046N",
-        "Longitude (X)" : "101.449401E",
-        "Latitude (Y)_D" : 0.56104600000000004,
-        "Longitude (X)_D" : 101.44940099999999
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.449365,
-          0.56113500000000005
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Timur",
-        "JENIS" : "P",
-        "DIAMETER" : "78.3",
-        "SUHU SEKITAR \nPOHON" : 36.700000000000003,
-        "SUHU DILUAR \nPOHON" : 37.399999999999999,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 0,
-        "Latitude (Y)" : "0.561135N",
-        "Longitude (X)" : "101.449365E",
-        "Latitude (Y)_D" : 0.56113500000000005,
-        "Longitude (X)_D" : 101.449365
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.449382,
-          0.56132899999999997
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Timur",
-        "JENIS" : "P",
-        "DIAMETER" : "90.8",
-        "SUHU SEKITAR \nPOHON" : 36.700000000000003,
-        "SUHU DILUAR \nPOHON" : 37,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 0,
-        "Latitude (Y)" : "0.561329N",
-        "Longitude (X)" : "101.449382E",
-        "Latitude (Y)_D" : 0.56132899999999997,
-        "Longitude (X)_D" : 101.449382
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.449358,
-          0.56171099999999996
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Timur",
-        "JENIS" : "P",
-        "DIAMETER" : "90.4",
-        "SUHU SEKITAR \nPOHON" : 36.200000000000003,
-        "SUHU DILUAR \nPOHON" : 39.100000000000001,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 12.23,
-        "Latitude (Y)" : "0.561711N",
-        "Longitude (X)" : "101.449358E",
-        "Latitude (Y)_D" : 0.56171099999999996,
-        "Longitude (X)_D" : 101.449358
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.449359,
-          0.56229200000000001
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Timur",
-        "JENIS" : "P",
-        "DIAMETER" : "78.4",
-        "SUHU SEKITAR \nPOHON" : 36.200000000000003,
-        "SUHU DILUAR \nPOHON" : 37.100000000000001,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 14.699999999999999,
-        "Latitude (Y)" : "0.562292N",
-        "Longitude (X)" : "101.449359E",
-        "Latitude (Y)_D" : 0.56229200000000001,
-        "Longitude (X)_D" : 101.449359
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.44915399999999,
-          0.56384599999999996
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Timur",
-        "JENIS" : "P",
-        "DIAMETER" : "98.6",
-        "SUHU SEKITAR \nPOHON" : 36.700000000000003,
-        "SUHU DILUAR \nPOHON" : 37.200000000000003,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 22.399999999999999,
-        "Latitude (Y)" : "0.563846N",
-        "Longitude (X)" : "101.449154E",
-        "Latitude (Y)_D" : 0.56384599999999996,
-        "Longitude (X)_D" : 101.44915399999999
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.44914199999999,
-          0.56391400000000003
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Timur",
-        "JENIS" : "P",
-        "DIAMETER" : "54.5",
-        "SUHU SEKITAR \nPOHON" : 36.200000000000003,
-        "SUHU DILUAR \nPOHON" : 37.899999999999999,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 22,
-        "Latitude (Y)" : "0.563914N",
-        "Longitude (X)" : "101.449142E",
-        "Latitude (Y)_D" : 0.56391400000000003,
-        "Longitude (X)_D" : 101.44914199999999
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.449116,
-          0.56401100000000004
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Timur",
-        "JENIS" : "P",
-        "DIAMETER" : "121.6",
-        "SUHU SEKITAR \nPOHON" : 36.100000000000001,
-        "SUHU DILUAR \nPOHON" : 37.200000000000003,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 26.100000000000001,
-        "Latitude (Y)" : "0.564011N",
-        "Longitude (X)" : "101.449116E",
-        "Latitude (Y)_D" : 0.56401100000000004,
-        "Longitude (X)_D" : 101.449116
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.499022,
-          0.564334
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Timur",
-        "JENIS" : "P",
-        "DIAMETER" : "141",
-        "SUHU SEKITAR \nPOHON" : 36.200000000000003,
-        "SUHU DILUAR \nPOHON" : 41.5,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 32.299999999999997,
-        "Latitude (Y)" : "0.564334N",
-        "Longitude (X)" : "101.499022E",
-        "Latitude (Y)_D" : 0.564334,
-        "Longitude (X)_D" : 101.499022
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.448995,
-          0.56442199999999998
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Timur",
-        "JENIS" : "P",
-        "DIAMETER" : "78.4",
-        "SUHU SEKITAR \nPOHON" : 36.200000000000003,
-        "SUHU DILUAR \nPOHON" : 38.700000000000003,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 15.4,
-        "Latitude (Y)" : "0.564422N",
-        "Longitude (X)" : "101.448995E",
-        "Latitude (Y)_D" : 0.56442199999999998,
-        "Longitude (X)_D" : 101.448995
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.448898,
-          0.56509699999999996
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Timur",
-        "JENIS" : "P",
-        "DIAMETER" : "211.4",
-        "SUHU SEKITAR \nPOHON" : 36.700000000000003,
-        "SUHU DILUAR \nPOHON" : 39.299999999999997,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 31.5,
-        "Latitude (Y)" : "0.565097N",
-        "Longitude (X)" : "101.448898E",
-        "Latitude (Y)_D" : 0.56509699999999996,
-        "Longitude (X)_D" : 101.448898
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.44872599999999,
-          0.56351099999999998
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Timur",
-        "JENIS" : "P",
-        "DIAMETER" : "111.1",
-        "SUHU SEKITAR \nPOHON" : 36,
-        "SUHU DILUAR \nPOHON" : 37,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 16.399999999999999,
-        "Latitude (Y)" : "0.563511N",
-        "Longitude (X)" : "101.448726E",
-        "Latitude (Y)_D" : 0.56351099999999998,
-        "Longitude (X)_D" : 101.44872599999999
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.44868200000001,
-          0.56559599999999999
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Timur",
-        "JENIS" : "P",
-        "DIAMETER" : "78.9",
-        "SUHU SEKITAR \nPOHON" : 36.100000000000001,
-        "SUHU DILUAR \nPOHON" : 38.600000000000001,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 10.5,
-        "Latitude (Y)" : "0.565596N",
-        "Longitude (X)" : "101.448682E",
-        "Latitude (Y)_D" : 0.56559599999999999,
-        "Longitude (X)_D" : 101.44868200000001
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.44838300000001,
-          0.56699200000000005
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Timur",
-        "JENIS" : "P",
-        "DIAMETER" : "90.1",
-        "SUHU SEKITAR \nPOHON" : 34.700000000000003,
-        "SUHU DILUAR \nPOHON" : 37.200000000000003,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 14.9,
-        "Latitude (Y)" : "0.566992N",
-        "Longitude (X)" : "101.448383E",
-        "Latitude (Y)_D" : 0.56699200000000005,
-        "Longitude (X)_D" : 101.44838300000001
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.44821399999999,
-          0.56727099999999997
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Timur",
-        "JENIS" : "P",
-        "DIAMETER" : "78.4",
-        "SUHU SEKITAR \nPOHON" : 34.600000000000001,
-        "SUHU DILUAR \nPOHON" : 37.100000000000001,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 17.800000000000001,
-        "Latitude (Y)" : "0.567271N",
-        "Longitude (X)" : "101.448214E",
-        "Latitude (Y)_D" : 0.56727099999999997,
-        "Longitude (X)_D" : 101.44821399999999
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.44804600000001,
-          0.56772199999999995
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Timur",
-        "JENIS" : "P",
-        "DIAMETER" : "101.2",
-        "SUHU SEKITAR \nPOHON" : 34.200000000000003,
-        "SUHU DILUAR \nPOHON" : 37.399999999999999,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 24.300000000000001,
-        "Latitude (Y)" : "0.567722N",
-        "Longitude (X)" : "101.448046E",
-        "Latitude (Y)_D" : 0.56772199999999995,
-        "Longitude (X)_D" : 101.44804600000001
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.44815199999999,
-          0.56741699999999995
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Timur",
-        "JENIS" : "P",
-        "DIAMETER" : "90",
-        "SUHU SEKITAR \nPOHON" : 34.799999999999997,
-        "SUHU DILUAR \nPOHON" : 36.200000000000003,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 17.899999999999999,
-        "Latitude (Y)" : "0.567417N",
-        "Longitude (X)" : "101.448152E",
-        "Latitude (Y)_D" : 0.56741699999999995,
-        "Longitude (X)_D" : 101.44815199999999
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.448172,
-          0.56741699999999995
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Timur",
-        "JENIS" : "P",
-        "DIAMETER" : "38.5",
-        "SUHU SEKITAR \nPOHON" : 38,
-        "SUHU DILUAR \nPOHON" : 38,
-        "JUMLAH" : 1,
-        "KONDISI" : "Tidak Sehat",
-        "JARAK DARI \nJALAN (m)" : 20.399999999999999,
-        "Latitude (Y)" : "0.567417N",
-        "Longitude (X)" : "101.448172E",
-        "Latitude (Y)_D" : 0.56741699999999995,
-        "Longitude (X)_D" : 101.448172
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.447739,
-          0.56733999999999996
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Timur",
-        "JENIS" : "P",
-        "DIAMETER" : "145.3",
-        "SUHU SEKITAR \nPOHON" : 34.700000000000003,
-        "SUHU DILUAR \nPOHON" : 35.409999999999997,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 6.5,
-        "Latitude (Y)" : "0.56734N",
-        "Longitude (X)" : "101.447739E",
-        "Latitude (Y)_D" : 0.56733999999999996,
-        "Longitude (X)_D" : 101.447739
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.447913,
-          0.56885300000000005
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Timur",
-        "JENIS" : "P",
-        "DIAMETER" : "314.2",
-        "SUHU SEKITAR \nPOHON" : 37,
-        "SUHU DILUAR \nPOHON" : 40.5,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 35.299999999999997,
-        "Latitude (Y)" : "0.568853N",
-        "Longitude (X)" : "101.447913E",
-        "Latitude (Y)_D" : 0.56885300000000005,
-        "Longitude (X)_D" : 101.447913
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.447956,
-          0.56871300000000002
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Timur",
-        "JENIS" : "P",
-        "DIAMETER" : "313.2",
-        "SUHU SEKITAR \nPOHON" : 37.200000000000003,
-        "SUHU DILUAR \nPOHON" : 37.100000000000001,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 24.5,
-        "Latitude (Y)" : "0.568713N",
-        "Longitude (X)" : "101.447956E",
-        "Latitude (Y)_D" : 0.56871300000000002,
-        "Longitude (X)_D" : 101.447956
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.448025,
-          0.56840599999999997
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Timur",
-        "JENIS" : "P",
-        "DIAMETER" : "120",
-        "SUHU SEKITAR \nPOHON" : 36,
-        "SUHU DILUAR \nPOHON" : 38,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 20.399999999999999,
-        "Latitude (Y)" : "0.568406N",
-        "Longitude (X)" : "101.448025E",
-        "Latitude (Y)_D" : 0.56840599999999997,
-        "Longitude (X)_D" : 101.448025
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.44805700000001,
-          0.56833800000000001
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Timur",
-        "JENIS" : "P",
-        "DIAMETER" : "134.2",
-        "SUHU SEKITAR \nPOHON" : 36,
-        "SUHU DILUAR \nPOHON" : 39.5,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 27.600000000000001,
-        "Latitude (Y)" : "0.568338N",
-        "Longitude (X)" : "101.448057E",
-        "Latitude (Y)_D" : 0.56833800000000001,
-        "Longitude (X)_D" : 101.44805700000001
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.44909,
-          0.56812300000000004
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Timur",
-        "JENIS" : "BP",
-        "DIAMETER" : "520",
-        "SUHU SEKITAR \nPOHON" : 37,
-        "SUHU DILUAR \nPOHON" : 42,
-        "JUMLAH" : 1,
-        "KONDISI" : "Tidak Sehat",
-        "JARAK DARI \nJALAN (m)" : 14.4,
-        "Latitude (Y)" : "0.568123N",
-        "Longitude (X)" : "101.44909E",
-        "Latitude (Y)_D" : 0.56812300000000004,
-        "Longitude (X)_D" : 101.44909
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.448199,
-          0.56776000000000004
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Timur",
-        "JENIS" : "P",
-        "DIAMETER" : "411.2",
-        "SUHU SEKITAR \nPOHON" : 36.899999999999999,
-        "SUHU DILUAR \nPOHON" : 38.200000000000003,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 28.300000000000001,
-        "Latitude (Y)" : "0.56776N",
-        "Longitude (X)" : "101.448199E",
-        "Latitude (Y)_D" : 0.56776000000000004,
-        "Longitude (X)_D" : 101.448199
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.44824699999999,
-          0.56763399999999997
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Timur",
-        "JENIS" : "P",
-        "DIAMETER" : "68.7",
-        "SUHU SEKITAR \nPOHON" : 34.200000000000003,
-        "SUHU DILUAR \nPOHON" : 42.100000000000001,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 20.199999999999999,
-        "Latitude (Y)" : "0.567634N",
-        "Longitude (X)" : "101.448247E",
-        "Latitude (Y)_D" : 0.56763399999999997,
-        "Longitude (X)_D" : 101.44824699999999
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.4483,
-          0.56742499999999996
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Timur",
-        "JENIS" : "BP",
-        "DIAMETER" : "74.5",
-        "SUHU SEKITAR \nPOHON" : 40,
-        "SUHU DILUAR \nPOHON" : 41.899999999999999,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 29.800000000000001,
-        "Latitude (Y)" : "0.567425N",
-        "Longitude (X)" : "101.4483E",
-        "Latitude (Y)_D" : 0.56742499999999996,
-        "Longitude (X)_D" : 101.4483
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.448352,
-          0.56716299999999997
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Timur",
-        "JENIS" : "P",
-        "DIAMETER" : "76.5",
-        "SUHU SEKITAR \nPOHON" : 36.100000000000001,
-        "SUHU DILUAR \nPOHON" : 38.700000000000003,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 15.5,
-        "Latitude (Y)" : "0.567163N",
-        "Longitude (X)" : "101.448352E",
-        "Latitude (Y)_D" : 0.56716299999999997,
-        "Longitude (X)_D" : 101.448352
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.448391,
-          0.56708899999999995
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Rumbai Timur",
-        "JENIS" : "P",
-        "DIAMETER" : "124.5",
-        "SUHU SEKITAR \nPOHON" : 34,
-        "SUHU DILUAR \nPOHON" : 37.200000000000003,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 19.5,
-        "Latitude (Y)" : "0.567089N",
-        "Longitude (X)" : "101.448391E",
-        "Latitude (Y)_D" : 0.56708899999999995,
-        "Longitude (X)_D" : 101.448391
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.43895999999999,
-          0.53808999999999996
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Senapelan",
-        "JENIS" : "P",
-        "DIAMETER" : "2.43",
-        "SUHU SEKITAR \nPOHON" : 36.5,
-        "SUHU DILUAR \nPOHON" : 37.200000000000003,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 0.34999999999999998,
-        "Latitude (Y)" : "0.53809N",
-        "Longitude (X)" : "101.43896E",
-        "Latitude (Y)_D" : 0.53808999999999996,
-        "Longitude (X)_D" : 101.43895999999999
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.43893,
-          0.53795000000000004
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Senapelan",
-        "JENIS" : "P",
-        "DIAMETER" : "3.07",
-        "SUHU SEKITAR \nPOHON" : 37.600000000000001,
-        "SUHU DILUAR \nPOHON" : 39.799999999999997,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 0.25,
-        "Latitude (Y)" : "0.53795N",
-        "Longitude (X)" : "101.43893E",
-        "Latitude (Y)_D" : 0.53795000000000004,
-        "Longitude (X)_D" : 101.43893
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.43881,
-          0.53779999999999994
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Senapelan",
-        "JENIS" : "BP",
-        "DIAMETER" : "0.26",
-        "SUHU SEKITAR \nPOHON" : 37.899999999999999,
-        "SUHU DILUAR \nPOHON" : 40.200000000000003,
-        "JUMLAH" : 2,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 0.32000000000000001,
-        "Latitude (Y)" : "0.53780N",
-        "Longitude (X)" : "101.43881E",
-        "Latitude (Y)_D" : 0.53779999999999994,
-        "Longitude (X)_D" : 101.43881
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.43879,
-          0.53769999999999996
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Senapelan",
-        "JENIS" : "P",
-        "DIAMETER" : "3.65",
-        "SUHU SEKITAR \nPOHON" : 36.200000000000003,
-        "SUHU DILUAR \nPOHON" : 37.799999999999997,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 0.89000000000000001,
-        "Latitude (Y)" : "0.53770N ",
-        "Longitude (X)" : "101.43879E",
-        "Latitude (Y)_D" : 0.53769999999999996,
-        "Longitude (X)_D" : 101.43879
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.4388,
-          0.53747
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Senapelan",
-        "JENIS" : "P",
-        "DIAMETER" : "3.27",
-        "SUHU SEKITAR \nPOHON" : 36.200000000000003,
-        "SUHU DILUAR \nPOHON" : 36.799999999999997,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 1.25,
-        "Latitude (Y)" : "0.53747N ",
-        "Longitude (X)" : "101.43880E",
-        "Latitude (Y)_D" : 0.53747,
-        "Longitude (X)_D" : 101.4388
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.43881,
-          0.53734000000000004
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Senapelan",
-        "JENIS" : "P",
-        "DIAMETER" : "2.87",
-        "SUHU SEKITAR \nPOHON" : 36.600000000000001,
-        "SUHU DILUAR \nPOHON" : 37.100000000000001,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 1.3700000000000001,
-        "Latitude (Y)" : "0.53734N ",
-        "Longitude (X)" : "101.43881E",
-        "Latitude (Y)_D" : 0.53734000000000004,
-        "Longitude (X)_D" : 101.43881
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.43877000000001,
-          0.53735999999999995
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Senapelan",
-        "JENIS" : "P",
-        "DIAMETER" : "2.59",
-        "SUHU SEKITAR \nPOHON" : 36.5,
-        "SUHU DILUAR \nPOHON" : 37.200000000000003,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 1.4099999999999999,
-        "Latitude (Y)" : "0.53736N ",
-        "Longitude (X)" : "101.43877E",
-        "Latitude (Y)_D" : 0.53735999999999995,
-        "Longitude (X)_D" : 101.43877000000001
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.43926999999999,
-          0.53664000000000001
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Senapelan",
-        "JENIS" : "BP",
-        "DIAMETER" : "3.2",
-        "SUHU SEKITAR \nPOHON" : 36.5,
-        "SUHU DILUAR \nPOHON" : 37.899999999999999,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 2.1099999999999999,
-        "Latitude (Y)" : "0.53664N ",
-        "Longitude (X)" : "101.43927E",
-        "Latitude (Y)_D" : 0.53664000000000001,
-        "Longitude (X)_D" : 101.43926999999999
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.43912,
-          0.53673000000000004
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Senapelan",
-        "JENIS" : "P",
-        "DIAMETER" : "2.89",
-        "SUHU SEKITAR \nPOHON" : 36.299999999999997,
-        "SUHU DILUAR \nPOHON" : 38.799999999999997,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 2.2599999999999998,
-        "Latitude (Y)" : "0.53673N ",
-        "Longitude (X)" : "101.43912E",
-        "Latitude (Y)_D" : 0.53673000000000004,
-        "Longitude (X)_D" : 101.43912
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.43899999999999,
-          0.53676999999999997
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Senapelan",
-        "JENIS" : "P",
-        "DIAMETER" : "1.35",
-        "SUHU SEKITAR \nPOHON" : 36,
-        "SUHU DILUAR \nPOHON" : 38.200000000000003,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 2.1499999999999999,
-        "Latitude (Y)" : "0.53677N ",
-        "Longitude (X)" : "101.43900E",
-        "Latitude (Y)_D" : 0.53676999999999997,
-        "Longitude (X)_D" : 101.43899999999999
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.43897,
-          0.53681000000000001
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Senapelan",
-        "JENIS" : "P",
-        "DIAMETER" : "1.83",
-        "SUHU SEKITAR \nPOHON" : 36.100000000000001,
-        "SUHU DILUAR \nPOHON" : 37.899999999999999,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 2.5299999999999998,
-        "Latitude (Y)" : "0.53681N ",
-        "Longitude (X)" : "101.43897E",
-        "Latitude (Y)_D" : 0.53681000000000001,
-        "Longitude (X)_D" : 101.43897
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.43894,
-          0.53683000000000003
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Senapelan",
-        "JENIS" : "P",
-        "DIAMETER" : "0.74",
-        "SUHU SEKITAR \nPOHON" : 36.100000000000001,
-        "SUHU DILUAR \nPOHON" : 37.600000000000001,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 2.1000000000000001,
-        "Latitude (Y)" : "0.53683N ",
-        "Longitude (X)" : "101.43894E",
-        "Latitude (Y)_D" : 0.53683000000000003,
-        "Longitude (X)_D" : 101.43894
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.43883,
-          0.53685000000000005
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Senapelan",
-        "JENIS" : "P",
-        "DIAMETER" : "0.92",
-        "SUHU SEKITAR \nPOHON" : 35.899999999999999,
-        "SUHU DILUAR \nPOHON" : 37.899999999999999,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 2.3700000000000001,
-        "Latitude (Y)" : "0.53685N ",
-        "Longitude (X)" : "101.43883E",
-        "Latitude (Y)_D" : 0.53685000000000005,
-        "Longitude (X)_D" : 101.43883
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.43885,
-          0.53686
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Senapelan",
-        "JENIS" : "P",
-        "DIAMETER" : "0.8",
-        "SUHU SEKITAR \nPOHON" : 36,
-        "SUHU DILUAR \nPOHON" : 37,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 1.97,
-        "Latitude (Y)" : "0.53686N ",
-        "Longitude (X)" : "101.43885E",
-        "Latitude (Y)_D" : 0.53686,
-        "Longitude (X)_D" : 101.43885
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.4388,
-          0.53688999999999998
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Senapelan",
-        "JENIS" : "P",
-        "DIAMETER" : "4.11",
-        "SUHU SEKITAR \nPOHON" : 35.899999999999999,
-        "SUHU DILUAR \nPOHON" : 38,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 2.8900000000000001,
-        "Latitude (Y)" : "0.53689N ",
-        "Longitude (X)" : "101.43880E",
-        "Latitude (Y)_D" : 0.53688999999999998,
-        "Longitude (X)_D" : 101.4388
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.43867,
-          0.53690000000000004
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Senapelan",
-        "JENIS" : "P",
-        "DIAMETER" : "3",
-        "SUHU SEKITAR \nPOHON" : 36.100000000000001,
-        "SUHU DILUAR \nPOHON" : 37.700000000000003,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 3.0699999999999998,
-        "Latitude (Y)" : "0.53690N ",
-        "Longitude (X)" : "101.43867E",
-        "Latitude (Y)_D" : 0.53690000000000004,
-        "Longitude (X)_D" : 101.43867
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.43859,
-          0.53698000000000001
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Senapelan",
-        "JENIS" : "P",
-        "DIAMETER" : "3.47",
-        "SUHU SEKITAR \nPOHON" : 35,
-        "SUHU DILUAR \nPOHON" : 36.100000000000001,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 2.6800000000000002,
-        "Latitude (Y)" : "0.53698N ",
-        "Longitude (X)" : "101.43859E",
-        "Latitude (Y)_D" : 0.53698000000000001,
-        "Longitude (X)_D" : 101.43859
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.43651,
-          0.53674999999999995
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Senapelan",
-        "JENIS" : "BP",
-        "DIAMETER" : "2.89",
-        "SUHU SEKITAR \nPOHON" : 35,
-        "SUHU DILUAR \nPOHON" : 37,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 1.8,
-        "Latitude (Y)" : "0.53675N ",
-        "Longitude (X)" : "101.43651E",
-        "Latitude (Y)_D" : 0.53674999999999995,
-        "Longitude (X)_D" : 101.43651
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.43652,
-          0.53673999999999999
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Senapelan",
-        "JENIS" : "BP",
-        "DIAMETER" : "1.14",
-        "SUHU SEKITAR \nPOHON" : 35.899999999999999,
-        "SUHU DILUAR \nPOHON" : 36.600000000000001,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 3.5800000000000001,
-        "Latitude (Y)" : "0.53674N ",
-        "Longitude (X)" : "101.43652E",
-        "Latitude (Y)_D" : 0.53673999999999999,
-        "Longitude (X)_D" : 101.43652
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.43649000000001,
-          0.53642999999999996
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Senapelan",
-        "JENIS" : "BP",
-        "DIAMETER" : "1.29",
-        "SUHU SEKITAR \nPOHON" : 35.799999999999997,
-        "SUHU DILUAR \nPOHON" : 37,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 4,
-        "Latitude (Y)" : "0.53643N",
-        "Longitude (X)" : " 101.43649E",
-        "Latitude (Y)_D" : 0.53642999999999996,
-        "Longitude (X)_D" : 101.43649000000001
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.43647,
-          0.53642000000000001
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Senapelan",
-        "JENIS" : "BP",
-        "DIAMETER" : "1.08",
-        "SUHU SEKITAR \nPOHON" : 36,
-        "SUHU DILUAR \nPOHON" : 37.5,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 4.1200000000000001,
-        "Latitude (Y)" : "0.53642N ",
-        "Longitude (X)" : "101.43647E",
-        "Latitude (Y)_D" : 0.53642000000000001,
-        "Longitude (X)_D" : 101.43647
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.43647,
-          0.53632999999999997
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Senapelan",
-        "JENIS" : "BP",
-        "DIAMETER" : "1.21",
-        "SUHU SEKITAR \nPOHON" : 36.5,
-        "SUHU DILUAR \nPOHON" : 37.700000000000003,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 4.2300000000000004,
-        "Latitude (Y)" : "0.53633N ",
-        "Longitude (X)" : "101.43647E",
-        "Latitude (Y)_D" : 0.53632999999999997,
-        "Longitude (X)_D" : 101.43647
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.43647,
-          0.53624000000000005
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Senapelan",
-        "JENIS" : "BP",
-        "DIAMETER" : "1.3",
-        "SUHU SEKITAR \nPOHON" : 36,
-        "SUHU DILUAR \nPOHON" : 37.5,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 4.3300000000000001,
-        "Latitude (Y)" : "0.53624N ",
-        "Longitude (X)" : "101.43647E",
-        "Latitude (Y)_D" : 0.53624000000000005,
-        "Longitude (X)_D" : 101.43647
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.43642,
-          0.53600000000000003
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Senapelan",
-        "JENIS" : "P",
-        "DIAMETER" : "3.72",
-        "SUHU SEKITAR \nPOHON" : 35,
-        "SUHU DILUAR \nPOHON" : 36.399999999999999,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 3.8799999999999999,
-        "Latitude (Y)" : "0.53600N ",
-        "Longitude (X)" : "101.43642E",
-        "Latitude (Y)_D" : 0.53600000000000003,
-        "Longitude (X)_D" : 101.43642
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.43643,
-          0.53578999999999999
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Senapelan",
-        "JENIS" : "BP",
-        "DIAMETER" : "1.17",
-        "SUHU SEKITAR \nPOHON" : 35.799999999999997,
-        "SUHU DILUAR \nPOHON" : 37,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 4.3700000000000001,
-        "Latitude (Y)" : "0.53579N ",
-        "Longitude (X)" : "101.43643E",
-        "Latitude (Y)_D" : 0.53578999999999999,
-        "Longitude (X)_D" : 101.43643
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.43639,
-          0.53578999999999999
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Senapelan",
-        "JENIS" : "P",
-        "DIAMETER" : "3.49",
-        "SUHU SEKITAR \nPOHON" : 36.399999999999999,
-        "SUHU DILUAR \nPOHON" : 38.700000000000003,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 3.4900000000000002,
-        "Latitude (Y)" : "0.53579N ",
-        "Longitude (X)" : "101.43639E",
-        "Latitude (Y)_D" : 0.53578999999999999,
-        "Longitude (X)_D" : 101.43639
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.43638,
-          0.53656999999999999
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Senapelan",
-        "JENIS" : "P",
-        "DIAMETER" : "1.27",
-        "SUHU SEKITAR \nPOHON" : 35.799999999999997,
-        "SUHU DILUAR \nPOHON" : 37.700000000000003,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 2.5600000000000001,
-        "Latitude (Y)" : "0.53657N ",
-        "Longitude (X)" : "101.43638E",
-        "Latitude (Y)_D" : 0.53656999999999999,
-        "Longitude (X)_D" : 101.43638
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.43648,
-          0.53737999999999997
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Senapelan",
-        "JENIS" : "P",
-        "DIAMETER" : "1.43",
-        "SUHU SEKITAR \nPOHON" : 36,
-        "SUHU DILUAR \nPOHON" : 37,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 1.8700000000000001,
-        "Latitude (Y)" : "0.53738N ",
-        "Longitude (X)" : "101.43648E",
-        "Latitude (Y)_D" : 0.53737999999999997,
-        "Longitude (X)_D" : 101.43648
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.4365,
-          0.53749000000000002
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Senapelan",
-        "JENIS" : "P",
-        "DIAMETER" : "0.94",
-        "SUHU SEKITAR \nPOHON" : 36,
-        "SUHU DILUAR \nPOHON" : 37.100000000000001,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 1.9099999999999999,
-        "Latitude (Y)" : "0.53749N ",
-        "Longitude (X)" : "101.43650E",
-        "Latitude (Y)_D" : 0.53749000000000002,
-        "Longitude (X)_D" : 101.4365
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.43644,
-          0.53759000000000001
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Senapelan",
-        "JENIS" : "P",
-        "DIAMETER" : "1.53",
-        "SUHU SEKITAR \nPOHON" : 35.899999999999999,
-        "SUHU DILUAR \nPOHON" : 37,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 0.34000000000000002,
-        "Latitude (Y)" : "0.53759N",
-        "Longitude (X)" : " 101.43644E",
-        "Latitude (Y)_D" : 0.53759000000000001,
-        "Longitude (X)_D" : 101.43644
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.43676000000001,
-          0.5383
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Senapelan",
-        "JENIS" : "BP",
-        "DIAMETER" : "0.67",
-        "SUHU SEKITAR \nPOHON" : 35.799999999999997,
-        "SUHU DILUAR \nPOHON" : 36.600000000000001,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 3.2400000000000002,
-        "Latitude (Y)" : "0.53830N ",
-        "Longitude (X)" : "101.43676E",
-        "Latitude (Y)_D" : 0.5383,
-        "Longitude (X)_D" : 101.43676000000001
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.43677,
-          0.53827999999999998
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Senapelan",
-        "JENIS" : "P",
-        "DIAMETER" : "1.5",
-        "SUHU SEKITAR \nPOHON" : 36.399999999999999,
-        "SUHU DILUAR \nPOHON" : 37,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 0.78000000000000003,
-        "Latitude (Y)" : "0.53828N ",
-        "Longitude (X)" : "101.43677E",
-        "Latitude (Y)_D" : 0.53827999999999998,
-        "Longitude (X)_D" : 101.43677
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.43677,
-          0.53813999999999995
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Senapelan",
-        "JENIS" : "P",
-        "DIAMETER" : "1.07",
-        "SUHU SEKITAR \nPOHON" : 35.399999999999999,
-        "SUHU DILUAR \nPOHON" : 36.799999999999997,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 1.54,
-        "Latitude (Y)" : "0.53814N",
-        "Longitude (X)" : " 101.43677E",
-        "Latitude (Y)_D" : 0.53813999999999995,
-        "Longitude (X)_D" : 101.43677
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.43666,
-          0.53835999999999995
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Senapelan",
-        "JENIS" : "BP",
-        "DIAMETER" : "0.39",
-        "SUHU SEKITAR \nPOHON" : 36,
-        "SUHU DILUAR \nPOHON" : 36.899999999999999,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 2.6699999999999999,
-        "Latitude (Y)" : "0.53836N ",
-        "Longitude (X)" : "101.43666E",
-        "Latitude (Y)_D" : 0.53835999999999995,
-        "Longitude (X)_D" : 101.43666
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.43667000000001,
-          0.53849000000000002
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Senapelan",
-        "JENIS" : "BP",
-        "DIAMETER" : "0.9",
-        "SUHU SEKITAR \nPOHON" : 35.899999999999999,
-        "SUHU DILUAR \nPOHON" : 36.799999999999997,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 2.4900000000000002,
-        "Latitude (Y)" : "0.53849N ",
-        "Longitude (X)" : "101.43667E",
-        "Latitude (Y)_D" : 0.53849000000000002,
-        "Longitude (X)_D" : 101.43667000000001
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.4367,
-          0.53849999999999998
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Senapelan",
-        "JENIS" : "P",
-        "DIAMETER" : "91.22",
-        "SUHU SEKITAR \nPOHON" : 36.399999999999999,
-        "SUHU DILUAR \nPOHON" : 38.799999999999997,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 7.0099999999999998,
-        "Latitude (Y)" : "0.53850N ",
-        "Longitude (X)" : "101.43670E",
-        "Latitude (Y)_D" : 0.53849999999999998,
-        "Longitude (X)_D" : 101.4367
-      }
-    },
-    {
-      "type" : "Feature",
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          101.43674,
-          0.53852999999999995
-        ]
-      },
-      "properties" : {
-        "LOKASI" : "Senapelan",
-        "JENIS" : "P",
-        "DIAMETER" : "90.53",
-        "SUHU SEKITAR \nPOHON" : 36.399999999999999,
-        "SUHU DILUAR \nPOHON" : 38.799999999999997,
-        "JUMLAH" : 1,
-        "KONDISI" : "Sehat",
-        "JARAK DARI \nJALAN (m)" : 7.0800000000000001,
-        "Latitude (Y)" : "0.53853N ",
-        "Longitude (X)" : "101.43674E",
-        "Latitude (Y)_D" : 0.53852999999999995,
-        "Longitude (X)_D" : 101.43674
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.42106, 0.57201999999999997]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Barat",
+        "JENIS": "P",
+        "DIAMETER": "158",
+        "SUHU SEKITAR \nPOHON": 35.100000000000001,
+        "SUHU DILUAR \nPOHON": 36.100000000000001,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 0.5,
+        "Latitude (Y)": "0.57202N",
+        "Longitude (X)": "101.42106E",
+        "Latitude (Y)_D": 0.57201999999999997,
+        "Longitude (X)_D": 101.42106
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.42103, 0.57208999999999999]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Barat",
+        "JENIS": "P",
+        "DIAMETER": "93",
+        "SUHU SEKITAR \nPOHON": 36.799999999999997,
+        "SUHU DILUAR \nPOHON": 41.299999999999997,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 0.52000000000000002,
+        "Latitude (Y)": "0.57209N",
+        "Longitude (X)": "101.42103E",
+        "Latitude (Y)_D": 0.57208999999999999,
+        "Longitude (X)_D": 101.42103
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.42103, 0.57213000000000003]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Barat",
+        "JENIS": "P",
+        "DIAMETER": "163",
+        "SUHU SEKITAR \nPOHON": 41,
+        "SUHU DILUAR \nPOHON": 41.200000000000003,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 0.58999999999999997,
+        "Latitude (Y)": "0.57213N",
+        "Longitude (X)": "101.42103E",
+        "Latitude (Y)_D": 0.57213000000000003,
+        "Longitude (X)_D": 101.42103
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.42095999999999, 0.57213000000000003]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Barat",
+        "JENIS": "P",
+        "DIAMETER": "216",
+        "SUHU SEKITAR \nPOHON": 36.700000000000003,
+        "SUHU DILUAR \nPOHON": 41.600000000000001,
+        "JUMLAH": 1,
+        "KONDISI": "Tidak Sehat",
+        "JARAK DARI \nJALAN (m)": 0.59999999999999998,
+        "Latitude (Y)": "0.57213N",
+        "Longitude (X)": "101.42096E",
+        "Latitude (Y)_D": 0.57213000000000003,
+        "Longitude (X)_D": 101.42095999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.4208, 0.57237000000000005]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Barat",
+        "JENIS": "P",
+        "DIAMETER": "194",
+        "SUHU SEKITAR \nPOHON": 36.200000000000003,
+        "SUHU DILUAR \nPOHON": 41.799999999999997,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 0.82999999999999996,
+        "Latitude (Y)": "0.57237N",
+        "Longitude (X)": "101.42080E",
+        "Latitude (Y)_D": 0.57237000000000005,
+        "Longitude (X)_D": 101.4208
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.41947, 0.57265999999999995]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Barat",
+        "JENIS": "BP",
+        "DIAMETER": "172",
+        "SUHU SEKITAR \nPOHON": 38.200000000000003,
+        "SUHU DILUAR \nPOHON": 42.700000000000003,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 0.59999999999999998,
+        "Latitude (Y)": "0.57266N",
+        "Longitude (X)": "101.41947E",
+        "Latitude (Y)_D": 0.57265999999999995,
+        "Longitude (X)_D": 101.41947
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.41934000000001, 0.57299999999999995]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Barat",
+        "JENIS": "BP",
+        "DIAMETER": "80",
+        "SUHU SEKITAR \nPOHON": 38.600000000000001,
+        "SUHU DILUAR \nPOHON": 40.600000000000001,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 0.20000000000000001,
+        "Latitude (Y)": "0.57300N",
+        "Longitude (X)": "101.41934E",
+        "Latitude (Y)_D": 0.57299999999999995,
+        "Longitude (X)_D": 101.41934000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.42927, 0.57316]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Barat",
+        "JENIS": "P",
+        "DIAMETER": "210",
+        "SUHU SEKITAR \nPOHON": 38.700000000000003,
+        "SUHU DILUAR \nPOHON": 41.600000000000001,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 0.56000000000000005,
+        "Latitude (Y)": "0.57316N",
+        "Longitude (X)": "101.42927E",
+        "Latitude (Y)_D": 0.57316,
+        "Longitude (X)_D": 101.42927
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.41916000000001, 0.57367000000000001]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Barat",
+        "JENIS": "P",
+        "DIAMETER": "47",
+        "SUHU SEKITAR \nPOHON": 38.700000000000003,
+        "SUHU DILUAR \nPOHON": 41.5,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 0.47999999999999998,
+        "Latitude (Y)": "0.57367N",
+        "Longitude (X)": "101.41916E",
+        "Latitude (Y)_D": 0.57367000000000001,
+        "Longitude (X)_D": 101.41916000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.418886, 0.57367999999999997]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Barat",
+        "JENIS": "P",
+        "DIAMETER": "50.6",
+        "SUHU SEKITAR \nPOHON": 37.899999999999999,
+        "SUHU DILUAR \nPOHON": 41.700000000000003,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 1.8300000000000001,
+        "Latitude (Y)": "0.57368N",
+        "Longitude (X)": "101.418886E",
+        "Latitude (Y)_D": 0.57367999999999997,
+        "Longitude (X)_D": 101.418886
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.41885000000001, 0.57425999999999999]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Barat",
+        "JENIS": "P",
+        "DIAMETER": "70.2",
+        "SUHU SEKITAR \nPOHON": 36.200000000000003,
+        "SUHU DILUAR \nPOHON": 42.100000000000001,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 2.2000000000000002,
+        "Latitude (Y)": "0.57426N",
+        "Longitude (X)": "101.41885E",
+        "Latitude (Y)_D": 0.57425999999999999,
+        "Longitude (X)_D": 101.41885000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.41864, 0.57464999999999999]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Barat",
+        "JENIS": "BP",
+        "DIAMETER": "231.2",
+        "SUHU SEKITAR \nPOHON": 36.200000000000003,
+        "SUHU DILUAR \nPOHON": 42.700000000000003,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat ",
+        "JARAK DARI \nJALAN (m)": 0.72999999999999998,
+        "Latitude (Y)": "0.57465N",
+        "Longitude (X)": "101.41864E",
+        "Latitude (Y)_D": 0.57464999999999999,
+        "Longitude (X)_D": 101.41864
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.4786, 0.57464999999999999]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Barat",
+        "JENIS": "P",
+        "DIAMETER": "105.9",
+        "SUHU SEKITAR \nPOHON": 36.200000000000003,
+        "SUHU DILUAR \nPOHON": 41.700000000000003,
+        "JUMLAH": 1,
+        "KONDISI": "Tidak Sehat",
+        "JARAK DARI \nJALAN (m)": 0.34999999999999998,
+        "Latitude (Y)": "0.57465N",
+        "Longitude (X)": "101.47860E",
+        "Latitude (Y)_D": 0.57464999999999999,
+        "Longitude (X)_D": 101.4786
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.41849999999999, 0.57467000000000001]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Barat",
+        "JENIS": "P",
+        "DIAMETER": "99.5",
+        "SUHU SEKITAR \nPOHON": 36.5,
+        "SUHU DILUAR \nPOHON": 42.600000000000001,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 0.67000000000000004,
+        "Latitude (Y)": "0.57467N",
+        "Longitude (X)": "101.41850E",
+        "Latitude (Y)_D": 0.57467000000000001,
+        "Longitude (X)_D": 101.41849999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.41842, 0.57460999999999995]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Barat",
+        "JENIS": "BP",
+        "DIAMETER": "101.6",
+        "SUHU SEKITAR \nPOHON": 40.600000000000001,
+        "SUHU DILUAR \nPOHON": 41.5,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 0.52000000000000002,
+        "Latitude (Y)": "0.57461N",
+        "Longitude (X)": "101.41842E",
+        "Latitude (Y)_D": 0.57460999999999995,
+        "Longitude (X)_D": 101.41842
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.41847, 0.57480100000000001]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Barat",
+        "JENIS": "P",
+        "DIAMETER": "193.4",
+        "SUHU SEKITAR \nPOHON": 36.100000000000001,
+        "SUHU DILUAR \nPOHON": 41.200000000000003,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 2.1000000000000001,
+        "Latitude (Y)": "0.574801N",
+        "Longitude (X)": "101.41847E",
+        "Latitude (Y)_D": 0.57480100000000001,
+        "Longitude (X)_D": 101.41847
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.41808, 0.57425999999999999]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Barat",
+        "JENIS": "P",
+        "DIAMETER": "178.9",
+        "SUHU SEKITAR \nPOHON": 36.100000000000001,
+        "SUHU DILUAR \nPOHON": 42.799999999999997,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 0.93999999999999995,
+        "Latitude (Y)": "0.57426N",
+        "Longitude (X)": "101.41808E",
+        "Latitude (Y)_D": 0.57425999999999999,
+        "Longitude (X)_D": 101.41808
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.41813999999999, 0.57523999999999997]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Barat",
+        "JENIS": "BP",
+        "DIAMETER": "350.4",
+        "SUHU SEKITAR \nPOHON": 36,
+        "SUHU DILUAR \nPOHON": 38.5,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 1.8,
+        "Latitude (Y)": "0.57524N",
+        "Longitude (X)": "101.41814E",
+        "Latitude (Y)_D": 0.57523999999999997,
+        "Longitude (X)_D": 101.41813999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.41813, 0.57535999999999998]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Barat",
+        "JENIS": "BP",
+        "DIAMETER": "40.3",
+        "SUHU SEKITAR \nPOHON": 36.200000000000003,
+        "SUHU DILUAR \nPOHON": 42.700000000000003,
+        "JUMLAH": 1,
+        "KONDISI": "Tidak Sehat",
+        "JARAK DARI \nJALAN (m)": 2.7000000000000002,
+        "Latitude (Y)": "0.57536N",
+        "Longitude (X)": "101.41813E",
+        "Latitude (Y)_D": 0.57535999999999998,
+        "Longitude (X)_D": 101.41813
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.41818000000001, 0.57543999999999995]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Barat",
+        "JENIS": "BP",
+        "DIAMETER": "171.5",
+        "SUHU SEKITAR \nPOHON": 36.100000000000001,
+        "SUHU DILUAR \nPOHON": 40.149999999999999,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 1.73,
+        "Latitude (Y)": "0.57544N",
+        "Longitude (X)": "101.41818E",
+        "Latitude (Y)_D": 0.57543999999999995,
+        "Longitude (X)_D": 101.41818000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.41804999999999, 0.57479999999999998]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Barat",
+        "JENIS": "BP",
+        "DIAMETER": "95.6",
+        "SUHU SEKITAR \nPOHON": 36.100000000000001,
+        "SUHU DILUAR \nPOHON": 37.399999999999999,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 1.78,
+        "Latitude (Y)": "0.5748N",
+        "Longitude (X)": "101.41805E",
+        "Latitude (Y)_D": 0.57479999999999998,
+        "Longitude (X)_D": 101.41804999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.41799, 0.57357999999999998]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Barat",
+        "JENIS": "BP",
+        "DIAMETER": "101.4",
+        "SUHU SEKITAR \nPOHON": 35.399999999999999,
+        "SUHU DILUAR \nPOHON": 37,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 3.5,
+        "Latitude (Y)": "0.57358N",
+        "Longitude (X)": "101.41799E",
+        "Latitude (Y)_D": 0.57357999999999998,
+        "Longitude (X)_D": 101.41799
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.41803, 0.575484]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Barat",
+        "JENIS": "P",
+        "DIAMETER": "95.8",
+        "SUHU SEKITAR \nPOHON": 36.200000000000003,
+        "SUHU DILUAR \nPOHON": 38.700000000000003,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 4.2000000000000002,
+        "Latitude (Y)": "0.575484N",
+        "Longitude (X)": "101.418030E",
+        "Latitude (Y)_D": 0.575484,
+        "Longitude (X)_D": 101.41803
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.418009, 0.57566200000000001]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Barat",
+        "JENIS": "BP",
+        "DIAMETER": "120.2",
+        "SUHU SEKITAR \nPOHON": 36.200000000000003,
+        "SUHU DILUAR \nPOHON": 38,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 6.5,
+        "Latitude (Y)": "0.575662N",
+        "Longitude (X)": "101.418009E",
+        "Latitude (Y)_D": 0.57566200000000001,
+        "Longitude (X)_D": 101.418009
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.417947, 0.57588899999999998]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Barat",
+        "JENIS": "BP",
+        "DIAMETER": "208.3",
+        "SUHU SEKITAR \nPOHON": 36.100000000000001,
+        "SUHU DILUAR \nPOHON": 42.600000000000001,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 3.3999999999999999,
+        "Latitude (Y)": "0.575889N",
+        "Longitude (X)": "101.417947E",
+        "Latitude (Y)_D": 0.57588899999999998,
+        "Longitude (X)_D": 101.417947
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.417885, 0.57644200000000001]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Barat",
+        "JENIS": "P",
+        "DIAMETER": "34.3",
+        "SUHU SEKITAR \nPOHON": 36.100000000000001,
+        "SUHU DILUAR \nPOHON": 41.200000000000003,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 3.6000000000000001,
+        "Latitude (Y)": "0.576442N",
+        "Longitude (X)": "101.417885E",
+        "Latitude (Y)_D": 0.57644200000000001,
+        "Longitude (X)_D": 101.417885
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.41785, 0.57668200000000003]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Barat",
+        "JENIS": "P",
+        "DIAMETER": "116.8",
+        "SUHU SEKITAR \nPOHON": 36.200000000000003,
+        "SUHU DILUAR \nPOHON": 38.899999999999999,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 4.2000000000000002,
+        "Latitude (Y)": "0.576682N",
+        "Longitude (X)": "101.417850E",
+        "Latitude (Y)_D": 0.57668200000000003,
+        "Longitude (X)_D": 101.41785
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.419372, 0.57248600000000005]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Barat",
+        "JENIS": "P",
+        "DIAMETER": "215.3",
+        "SUHU SEKITAR \nPOHON": 36,
+        "SUHU DILUAR \nPOHON": 34.799999999999997,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 1.5600000000000001,
+        "Latitude (Y)": "0.572486N",
+        "Longitude (X)": "101.419372E",
+        "Latitude (Y)_D": 0.57248600000000005,
+        "Longitude (X)_D": 101.419372
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.41921600000001, 0.572461]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Barat",
+        "JENIS": "P",
+        "DIAMETER": "230.5",
+        "SUHU SEKITAR \nPOHON": 36.299999999999997,
+        "SUHU DILUAR \nPOHON": 41.899999999999999,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 1.5900000000000001,
+        "Latitude (Y)": "0.572461N",
+        "Longitude (X)": "101.419216E",
+        "Latitude (Y)_D": 0.572461,
+        "Longitude (X)_D": 101.41921600000001
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.41916399999999, 0.57247099999999995]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Barat",
+        "JENIS": "P",
+        "DIAMETER": "118.6",
+        "SUHU SEKITAR \nPOHON": 36.100000000000001,
+        "SUHU DILUAR \nPOHON": 41.600000000000001,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 1.54,
+        "Latitude (Y)": "0.572471N",
+        "Longitude (X)": "101.419164E",
+        "Latitude (Y)_D": 0.57247099999999995,
+        "Longitude (X)_D": 101.41916399999999
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.41909800000001, 0.57246300000000006]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Barat",
+        "JENIS": "BP",
+        "DIAMETER": "85.4",
+        "SUHU SEKITAR \nPOHON": 36.200000000000003,
+        "SUHU DILUAR \nPOHON": 41.399999999999999,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 1.6200000000000001,
+        "Latitude (Y)": "0.572463N",
+        "Longitude (X)": "101.419098E",
+        "Latitude (Y)_D": 0.57246300000000006,
+        "Longitude (X)_D": 101.41909800000001
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.419056, 0.57246200000000003]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Barat",
+        "JENIS": "P",
+        "DIAMETER": "98.2",
+        "SUHU SEKITAR \nPOHON": 38.399999999999999,
+        "SUHU DILUAR \nPOHON": 42.700000000000003,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 1.4199999999999999,
+        "Latitude (Y)": "0.572462N",
+        "Longitude (X)": "101.419056E",
+        "Latitude (Y)_D": 0.57246200000000003,
+        "Longitude (X)_D": 101.419056
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.418324, 0.57252800000000004]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Barat",
+        "JENIS": "P",
+        "DIAMETER": "298.5",
+        "SUHU SEKITAR \nPOHON": 36.100000000000001,
+        "SUHU DILUAR \nPOHON": 38,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 1.2,
+        "Latitude (Y)": "0.572528N",
+        "Longitude (X)": "101.418324E",
+        "Latitude (Y)_D": 0.57252800000000004,
+        "Longitude (X)_D": 101.418324
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.44940099999999, 0.56104600000000004]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Barat",
+        "JENIS": "P",
+        "DIAMETER": "101.5",
+        "SUHU SEKITAR \nPOHON": 36.200000000000003,
+        "SUHU DILUAR \nPOHON": 38.799999999999997,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 1.3,
+        "Latitude (Y)": "0.561046N",
+        "Longitude (X)": "101.449401E",
+        "Latitude (Y)_D": 0.56104600000000004,
+        "Longitude (X)_D": 101.44940099999999
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.449365, 0.56113500000000005]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Timur",
+        "JENIS": "P",
+        "DIAMETER": "78.3",
+        "SUHU SEKITAR \nPOHON": 36.700000000000003,
+        "SUHU DILUAR \nPOHON": 37.399999999999999,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 0,
+        "Latitude (Y)": "0.561135N",
+        "Longitude (X)": "101.449365E",
+        "Latitude (Y)_D": 0.56113500000000005,
+        "Longitude (X)_D": 101.449365
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.449382, 0.56132899999999997]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Timur",
+        "JENIS": "P",
+        "DIAMETER": "90.8",
+        "SUHU SEKITAR \nPOHON": 36.700000000000003,
+        "SUHU DILUAR \nPOHON": 37,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 0,
+        "Latitude (Y)": "0.561329N",
+        "Longitude (X)": "101.449382E",
+        "Latitude (Y)_D": 0.56132899999999997,
+        "Longitude (X)_D": 101.449382
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.449358, 0.56171099999999996]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Timur",
+        "JENIS": "P",
+        "DIAMETER": "90.4",
+        "SUHU SEKITAR \nPOHON": 36.200000000000003,
+        "SUHU DILUAR \nPOHON": 39.100000000000001,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 12.23,
+        "Latitude (Y)": "0.561711N",
+        "Longitude (X)": "101.449358E",
+        "Latitude (Y)_D": 0.56171099999999996,
+        "Longitude (X)_D": 101.449358
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.449359, 0.56229200000000001]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Timur",
+        "JENIS": "P",
+        "DIAMETER": "78.4",
+        "SUHU SEKITAR \nPOHON": 36.200000000000003,
+        "SUHU DILUAR \nPOHON": 37.100000000000001,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 14.699999999999999,
+        "Latitude (Y)": "0.562292N",
+        "Longitude (X)": "101.449359E",
+        "Latitude (Y)_D": 0.56229200000000001,
+        "Longitude (X)_D": 101.449359
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.44915399999999, 0.56384599999999996]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Timur",
+        "JENIS": "P",
+        "DIAMETER": "98.6",
+        "SUHU SEKITAR \nPOHON": 36.700000000000003,
+        "SUHU DILUAR \nPOHON": 37.200000000000003,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 22.399999999999999,
+        "Latitude (Y)": "0.563846N",
+        "Longitude (X)": "101.449154E",
+        "Latitude (Y)_D": 0.56384599999999996,
+        "Longitude (X)_D": 101.44915399999999
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.44914199999999, 0.56391400000000003]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Timur",
+        "JENIS": "P",
+        "DIAMETER": "54.5",
+        "SUHU SEKITAR \nPOHON": 36.200000000000003,
+        "SUHU DILUAR \nPOHON": 37.899999999999999,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 22,
+        "Latitude (Y)": "0.563914N",
+        "Longitude (X)": "101.449142E",
+        "Latitude (Y)_D": 0.56391400000000003,
+        "Longitude (X)_D": 101.44914199999999
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.449116, 0.56401100000000004]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Timur",
+        "JENIS": "P",
+        "DIAMETER": "121.6",
+        "SUHU SEKITAR \nPOHON": 36.100000000000001,
+        "SUHU DILUAR \nPOHON": 37.200000000000003,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 26.100000000000001,
+        "Latitude (Y)": "0.564011N",
+        "Longitude (X)": "101.449116E",
+        "Latitude (Y)_D": 0.56401100000000004,
+        "Longitude (X)_D": 101.449116
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.499022, 0.564334]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Timur",
+        "JENIS": "P",
+        "DIAMETER": "141",
+        "SUHU SEKITAR \nPOHON": 36.200000000000003,
+        "SUHU DILUAR \nPOHON": 41.5,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 32.299999999999997,
+        "Latitude (Y)": "0.564334N",
+        "Longitude (X)": "101.499022E",
+        "Latitude (Y)_D": 0.564334,
+        "Longitude (X)_D": 101.499022
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.448995, 0.56442199999999998]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Timur",
+        "JENIS": "P",
+        "DIAMETER": "78.4",
+        "SUHU SEKITAR \nPOHON": 36.200000000000003,
+        "SUHU DILUAR \nPOHON": 38.700000000000003,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 15.4,
+        "Latitude (Y)": "0.564422N",
+        "Longitude (X)": "101.448995E",
+        "Latitude (Y)_D": 0.56442199999999998,
+        "Longitude (X)_D": 101.448995
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.448898, 0.56509699999999996]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Timur",
+        "JENIS": "P",
+        "DIAMETER": "211.4",
+        "SUHU SEKITAR \nPOHON": 36.700000000000003,
+        "SUHU DILUAR \nPOHON": 39.299999999999997,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 31.5,
+        "Latitude (Y)": "0.565097N",
+        "Longitude (X)": "101.448898E",
+        "Latitude (Y)_D": 0.56509699999999996,
+        "Longitude (X)_D": 101.448898
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.44872599999999, 0.56351099999999998]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Timur",
+        "JENIS": "P",
+        "DIAMETER": "111.1",
+        "SUHU SEKITAR \nPOHON": 36,
+        "SUHU DILUAR \nPOHON": 37,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 16.399999999999999,
+        "Latitude (Y)": "0.563511N",
+        "Longitude (X)": "101.448726E",
+        "Latitude (Y)_D": 0.56351099999999998,
+        "Longitude (X)_D": 101.44872599999999
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.44868200000001, 0.56559599999999999]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Timur",
+        "JENIS": "P",
+        "DIAMETER": "78.9",
+        "SUHU SEKITAR \nPOHON": 36.100000000000001,
+        "SUHU DILUAR \nPOHON": 38.600000000000001,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 10.5,
+        "Latitude (Y)": "0.565596N",
+        "Longitude (X)": "101.448682E",
+        "Latitude (Y)_D": 0.56559599999999999,
+        "Longitude (X)_D": 101.44868200000001
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.44838300000001, 0.56699200000000005]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Timur",
+        "JENIS": "P",
+        "DIAMETER": "90.1",
+        "SUHU SEKITAR \nPOHON": 34.700000000000003,
+        "SUHU DILUAR \nPOHON": 37.200000000000003,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 14.9,
+        "Latitude (Y)": "0.566992N",
+        "Longitude (X)": "101.448383E",
+        "Latitude (Y)_D": 0.56699200000000005,
+        "Longitude (X)_D": 101.44838300000001
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.44821399999999, 0.56727099999999997]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Timur",
+        "JENIS": "P",
+        "DIAMETER": "78.4",
+        "SUHU SEKITAR \nPOHON": 34.600000000000001,
+        "SUHU DILUAR \nPOHON": 37.100000000000001,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 17.800000000000001,
+        "Latitude (Y)": "0.567271N",
+        "Longitude (X)": "101.448214E",
+        "Latitude (Y)_D": 0.56727099999999997,
+        "Longitude (X)_D": 101.44821399999999
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.44804600000001, 0.56772199999999995]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Timur",
+        "JENIS": "P",
+        "DIAMETER": "101.2",
+        "SUHU SEKITAR \nPOHON": 34.200000000000003,
+        "SUHU DILUAR \nPOHON": 37.399999999999999,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 24.300000000000001,
+        "Latitude (Y)": "0.567722N",
+        "Longitude (X)": "101.448046E",
+        "Latitude (Y)_D": 0.56772199999999995,
+        "Longitude (X)_D": 101.44804600000001
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.44815199999999, 0.56741699999999995]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Timur",
+        "JENIS": "P",
+        "DIAMETER": "90",
+        "SUHU SEKITAR \nPOHON": 34.799999999999997,
+        "SUHU DILUAR \nPOHON": 36.200000000000003,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 17.899999999999999,
+        "Latitude (Y)": "0.567417N",
+        "Longitude (X)": "101.448152E",
+        "Latitude (Y)_D": 0.56741699999999995,
+        "Longitude (X)_D": 101.44815199999999
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.448172, 0.56741699999999995]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Timur",
+        "JENIS": "P",
+        "DIAMETER": "38.5",
+        "SUHU SEKITAR \nPOHON": 38,
+        "SUHU DILUAR \nPOHON": 38,
+        "JUMLAH": 1,
+        "KONDISI": "Tidak Sehat",
+        "JARAK DARI \nJALAN (m)": 20.399999999999999,
+        "Latitude (Y)": "0.567417N",
+        "Longitude (X)": "101.448172E",
+        "Latitude (Y)_D": 0.56741699999999995,
+        "Longitude (X)_D": 101.448172
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.447739, 0.56733999999999996]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Timur",
+        "JENIS": "P",
+        "DIAMETER": "145.3",
+        "SUHU SEKITAR \nPOHON": 34.700000000000003,
+        "SUHU DILUAR \nPOHON": 35.409999999999997,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 6.5,
+        "Latitude (Y)": "0.56734N",
+        "Longitude (X)": "101.447739E",
+        "Latitude (Y)_D": 0.56733999999999996,
+        "Longitude (X)_D": 101.447739
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.447913, 0.56885300000000005]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Timur",
+        "JENIS": "P",
+        "DIAMETER": "314.2",
+        "SUHU SEKITAR \nPOHON": 37,
+        "SUHU DILUAR \nPOHON": 40.5,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 35.299999999999997,
+        "Latitude (Y)": "0.568853N",
+        "Longitude (X)": "101.447913E",
+        "Latitude (Y)_D": 0.56885300000000005,
+        "Longitude (X)_D": 101.447913
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.447956, 0.56871300000000002]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Timur",
+        "JENIS": "P",
+        "DIAMETER": "313.2",
+        "SUHU SEKITAR \nPOHON": 37.200000000000003,
+        "SUHU DILUAR \nPOHON": 37.100000000000001,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 24.5,
+        "Latitude (Y)": "0.568713N",
+        "Longitude (X)": "101.447956E",
+        "Latitude (Y)_D": 0.56871300000000002,
+        "Longitude (X)_D": 101.447956
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.448025, 0.56840599999999997]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Timur",
+        "JENIS": "P",
+        "DIAMETER": "120",
+        "SUHU SEKITAR \nPOHON": 36,
+        "SUHU DILUAR \nPOHON": 38,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 20.399999999999999,
+        "Latitude (Y)": "0.568406N",
+        "Longitude (X)": "101.448025E",
+        "Latitude (Y)_D": 0.56840599999999997,
+        "Longitude (X)_D": 101.448025
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.44805700000001, 0.56833800000000001]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Timur",
+        "JENIS": "P",
+        "DIAMETER": "134.2",
+        "SUHU SEKITAR \nPOHON": 36,
+        "SUHU DILUAR \nPOHON": 39.5,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 27.600000000000001,
+        "Latitude (Y)": "0.568338N",
+        "Longitude (X)": "101.448057E",
+        "Latitude (Y)_D": 0.56833800000000001,
+        "Longitude (X)_D": 101.44805700000001
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.44909, 0.56812300000000004]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Timur",
+        "JENIS": "BP",
+        "DIAMETER": "520",
+        "SUHU SEKITAR \nPOHON": 37,
+        "SUHU DILUAR \nPOHON": 42,
+        "JUMLAH": 1,
+        "KONDISI": "Tidak Sehat",
+        "JARAK DARI \nJALAN (m)": 14.4,
+        "Latitude (Y)": "0.568123N",
+        "Longitude (X)": "101.44909E",
+        "Latitude (Y)_D": 0.56812300000000004,
+        "Longitude (X)_D": 101.44909
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.448199, 0.56776000000000004]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Timur",
+        "JENIS": "P",
+        "DIAMETER": "411.2",
+        "SUHU SEKITAR \nPOHON": 36.899999999999999,
+        "SUHU DILUAR \nPOHON": 38.200000000000003,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 28.300000000000001,
+        "Latitude (Y)": "0.56776N",
+        "Longitude (X)": "101.448199E",
+        "Latitude (Y)_D": 0.56776000000000004,
+        "Longitude (X)_D": 101.448199
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.44824699999999, 0.56763399999999997]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Timur",
+        "JENIS": "P",
+        "DIAMETER": "68.7",
+        "SUHU SEKITAR \nPOHON": 34.200000000000003,
+        "SUHU DILUAR \nPOHON": 42.100000000000001,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 20.199999999999999,
+        "Latitude (Y)": "0.567634N",
+        "Longitude (X)": "101.448247E",
+        "Latitude (Y)_D": 0.56763399999999997,
+        "Longitude (X)_D": 101.44824699999999
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.4483, 0.56742499999999996]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Timur",
+        "JENIS": "BP",
+        "DIAMETER": "74.5",
+        "SUHU SEKITAR \nPOHON": 40,
+        "SUHU DILUAR \nPOHON": 41.899999999999999,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 29.800000000000001,
+        "Latitude (Y)": "0.567425N",
+        "Longitude (X)": "101.4483E",
+        "Latitude (Y)_D": 0.56742499999999996,
+        "Longitude (X)_D": 101.4483
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.448352, 0.56716299999999997]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Timur",
+        "JENIS": "P",
+        "DIAMETER": "76.5",
+        "SUHU SEKITAR \nPOHON": 36.100000000000001,
+        "SUHU DILUAR \nPOHON": 38.700000000000003,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 15.5,
+        "Latitude (Y)": "0.567163N",
+        "Longitude (X)": "101.448352E",
+        "Latitude (Y)_D": 0.56716299999999997,
+        "Longitude (X)_D": 101.448352
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.448391, 0.56708899999999995]
+      },
+      "properties": {
+        "LOKASI": "Rumbai Timur",
+        "JENIS": "P",
+        "DIAMETER": "124.5",
+        "SUHU SEKITAR \nPOHON": 34,
+        "SUHU DILUAR \nPOHON": 37.200000000000003,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 19.5,
+        "Latitude (Y)": "0.567089N",
+        "Longitude (X)": "101.448391E",
+        "Latitude (Y)_D": 0.56708899999999995,
+        "Longitude (X)_D": 101.448391
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.43895999999999, 0.53808999999999996]
+      },
+      "properties": {
+        "LOKASI": "Senapelan",
+        "JENIS": "P",
+        "DIAMETER": "2.43",
+        "SUHU SEKITAR \nPOHON": 36.5,
+        "SUHU DILUAR \nPOHON": 37.200000000000003,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 0.34999999999999998,
+        "Latitude (Y)": "0.53809N",
+        "Longitude (X)": "101.43896E",
+        "Latitude (Y)_D": 0.53808999999999996,
+        "Longitude (X)_D": 101.43895999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.43893, 0.53795000000000004]
+      },
+      "properties": {
+        "LOKASI": "Senapelan",
+        "JENIS": "P",
+        "DIAMETER": "3.07",
+        "SUHU SEKITAR \nPOHON": 37.600000000000001,
+        "SUHU DILUAR \nPOHON": 39.799999999999997,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 0.25,
+        "Latitude (Y)": "0.53795N",
+        "Longitude (X)": "101.43893E",
+        "Latitude (Y)_D": 0.53795000000000004,
+        "Longitude (X)_D": 101.43893
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.43881, 0.53779999999999994]
+      },
+      "properties": {
+        "LOKASI": "Senapelan",
+        "JENIS": "BP",
+        "DIAMETER": "0.26",
+        "SUHU SEKITAR \nPOHON": 37.899999999999999,
+        "SUHU DILUAR \nPOHON": 40.200000000000003,
+        "JUMLAH": 2,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 0.32000000000000001,
+        "Latitude (Y)": "0.53780N",
+        "Longitude (X)": "101.43881E",
+        "Latitude (Y)_D": 0.53779999999999994,
+        "Longitude (X)_D": 101.43881
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.43879, 0.53769999999999996]
+      },
+      "properties": {
+        "LOKASI": "Senapelan",
+        "JENIS": "P",
+        "DIAMETER": "3.65",
+        "SUHU SEKITAR \nPOHON": 36.200000000000003,
+        "SUHU DILUAR \nPOHON": 37.799999999999997,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 0.89000000000000001,
+        "Latitude (Y)": "0.53770N ",
+        "Longitude (X)": "101.43879E",
+        "Latitude (Y)_D": 0.53769999999999996,
+        "Longitude (X)_D": 101.43879
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.4388, 0.53747]
+      },
+      "properties": {
+        "LOKASI": "Senapelan",
+        "JENIS": "P",
+        "DIAMETER": "3.27",
+        "SUHU SEKITAR \nPOHON": 36.200000000000003,
+        "SUHU DILUAR \nPOHON": 36.799999999999997,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 1.25,
+        "Latitude (Y)": "0.53747N ",
+        "Longitude (X)": "101.43880E",
+        "Latitude (Y)_D": 0.53747,
+        "Longitude (X)_D": 101.4388
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.43881, 0.53734000000000004]
+      },
+      "properties": {
+        "LOKASI": "Senapelan",
+        "JENIS": "P",
+        "DIAMETER": "2.87",
+        "SUHU SEKITAR \nPOHON": 36.600000000000001,
+        "SUHU DILUAR \nPOHON": 37.100000000000001,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 1.3700000000000001,
+        "Latitude (Y)": "0.53734N ",
+        "Longitude (X)": "101.43881E",
+        "Latitude (Y)_D": 0.53734000000000004,
+        "Longitude (X)_D": 101.43881
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.43877000000001, 0.53735999999999995]
+      },
+      "properties": {
+        "LOKASI": "Senapelan",
+        "JENIS": "P",
+        "DIAMETER": "2.59",
+        "SUHU SEKITAR \nPOHON": 36.5,
+        "SUHU DILUAR \nPOHON": 37.200000000000003,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 1.4099999999999999,
+        "Latitude (Y)": "0.53736N ",
+        "Longitude (X)": "101.43877E",
+        "Latitude (Y)_D": 0.53735999999999995,
+        "Longitude (X)_D": 101.43877000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.43926999999999, 0.53664000000000001]
+      },
+      "properties": {
+        "LOKASI": "Senapelan",
+        "JENIS": "BP",
+        "DIAMETER": "3.2",
+        "SUHU SEKITAR \nPOHON": 36.5,
+        "SUHU DILUAR \nPOHON": 37.899999999999999,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 2.1099999999999999,
+        "Latitude (Y)": "0.53664N ",
+        "Longitude (X)": "101.43927E",
+        "Latitude (Y)_D": 0.53664000000000001,
+        "Longitude (X)_D": 101.43926999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.43912, 0.53673000000000004]
+      },
+      "properties": {
+        "LOKASI": "Senapelan",
+        "JENIS": "P",
+        "DIAMETER": "2.89",
+        "SUHU SEKITAR \nPOHON": 36.299999999999997,
+        "SUHU DILUAR \nPOHON": 38.799999999999997,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 2.2599999999999998,
+        "Latitude (Y)": "0.53673N ",
+        "Longitude (X)": "101.43912E",
+        "Latitude (Y)_D": 0.53673000000000004,
+        "Longitude (X)_D": 101.43912
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.43899999999999, 0.53676999999999997]
+      },
+      "properties": {
+        "LOKASI": "Senapelan",
+        "JENIS": "P",
+        "DIAMETER": "1.35",
+        "SUHU SEKITAR \nPOHON": 36,
+        "SUHU DILUAR \nPOHON": 38.200000000000003,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 2.1499999999999999,
+        "Latitude (Y)": "0.53677N ",
+        "Longitude (X)": "101.43900E",
+        "Latitude (Y)_D": 0.53676999999999997,
+        "Longitude (X)_D": 101.43899999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.43897, 0.53681000000000001]
+      },
+      "properties": {
+        "LOKASI": "Senapelan",
+        "JENIS": "P",
+        "DIAMETER": "1.83",
+        "SUHU SEKITAR \nPOHON": 36.100000000000001,
+        "SUHU DILUAR \nPOHON": 37.899999999999999,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 2.5299999999999998,
+        "Latitude (Y)": "0.53681N ",
+        "Longitude (X)": "101.43897E",
+        "Latitude (Y)_D": 0.53681000000000001,
+        "Longitude (X)_D": 101.43897
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.43894, 0.53683000000000003]
+      },
+      "properties": {
+        "LOKASI": "Senapelan",
+        "JENIS": "P",
+        "DIAMETER": "0.74",
+        "SUHU SEKITAR \nPOHON": 36.100000000000001,
+        "SUHU DILUAR \nPOHON": 37.600000000000001,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 2.1000000000000001,
+        "Latitude (Y)": "0.53683N ",
+        "Longitude (X)": "101.43894E",
+        "Latitude (Y)_D": 0.53683000000000003,
+        "Longitude (X)_D": 101.43894
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.43883, 0.53685000000000005]
+      },
+      "properties": {
+        "LOKASI": "Senapelan",
+        "JENIS": "P",
+        "DIAMETER": "0.92",
+        "SUHU SEKITAR \nPOHON": 35.899999999999999,
+        "SUHU DILUAR \nPOHON": 37.899999999999999,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 2.3700000000000001,
+        "Latitude (Y)": "0.53685N ",
+        "Longitude (X)": "101.43883E",
+        "Latitude (Y)_D": 0.53685000000000005,
+        "Longitude (X)_D": 101.43883
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.43885, 0.53686]
+      },
+      "properties": {
+        "LOKASI": "Senapelan",
+        "JENIS": "P",
+        "DIAMETER": "0.8",
+        "SUHU SEKITAR \nPOHON": 36,
+        "SUHU DILUAR \nPOHON": 37,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 1.97,
+        "Latitude (Y)": "0.53686N ",
+        "Longitude (X)": "101.43885E",
+        "Latitude (Y)_D": 0.53686,
+        "Longitude (X)_D": 101.43885
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.4388, 0.53688999999999998]
+      },
+      "properties": {
+        "LOKASI": "Senapelan",
+        "JENIS": "P",
+        "DIAMETER": "4.11",
+        "SUHU SEKITAR \nPOHON": 35.899999999999999,
+        "SUHU DILUAR \nPOHON": 38,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 2.8900000000000001,
+        "Latitude (Y)": "0.53689N ",
+        "Longitude (X)": "101.43880E",
+        "Latitude (Y)_D": 0.53688999999999998,
+        "Longitude (X)_D": 101.4388
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.43867, 0.53690000000000004]
+      },
+      "properties": {
+        "LOKASI": "Senapelan",
+        "JENIS": "P",
+        "DIAMETER": "3",
+        "SUHU SEKITAR \nPOHON": 36.100000000000001,
+        "SUHU DILUAR \nPOHON": 37.700000000000003,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 3.0699999999999998,
+        "Latitude (Y)": "0.53690N ",
+        "Longitude (X)": "101.43867E",
+        "Latitude (Y)_D": 0.53690000000000004,
+        "Longitude (X)_D": 101.43867
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.43859, 0.53698000000000001]
+      },
+      "properties": {
+        "LOKASI": "Senapelan",
+        "JENIS": "P",
+        "DIAMETER": "3.47",
+        "SUHU SEKITAR \nPOHON": 35,
+        "SUHU DILUAR \nPOHON": 36.100000000000001,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 2.6800000000000002,
+        "Latitude (Y)": "0.53698N ",
+        "Longitude (X)": "101.43859E",
+        "Latitude (Y)_D": 0.53698000000000001,
+        "Longitude (X)_D": 101.43859
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.43651, 0.53674999999999995]
+      },
+      "properties": {
+        "LOKASI": "Senapelan",
+        "JENIS": "BP",
+        "DIAMETER": "2.89",
+        "SUHU SEKITAR \nPOHON": 35,
+        "SUHU DILUAR \nPOHON": 37,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 1.8,
+        "Latitude (Y)": "0.53675N ",
+        "Longitude (X)": "101.43651E",
+        "Latitude (Y)_D": 0.53674999999999995,
+        "Longitude (X)_D": 101.43651
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.43652, 0.53673999999999999]
+      },
+      "properties": {
+        "LOKASI": "Senapelan",
+        "JENIS": "BP",
+        "DIAMETER": "1.14",
+        "SUHU SEKITAR \nPOHON": 35.899999999999999,
+        "SUHU DILUAR \nPOHON": 36.600000000000001,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 3.5800000000000001,
+        "Latitude (Y)": "0.53674N ",
+        "Longitude (X)": "101.43652E",
+        "Latitude (Y)_D": 0.53673999999999999,
+        "Longitude (X)_D": 101.43652
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.43649000000001, 0.53642999999999996]
+      },
+      "properties": {
+        "LOKASI": "Senapelan",
+        "JENIS": "BP",
+        "DIAMETER": "1.29",
+        "SUHU SEKITAR \nPOHON": 35.799999999999997,
+        "SUHU DILUAR \nPOHON": 37,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 4,
+        "Latitude (Y)": "0.53643N",
+        "Longitude (X)": " 101.43649E",
+        "Latitude (Y)_D": 0.53642999999999996,
+        "Longitude (X)_D": 101.43649000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.43647, 0.53642000000000001]
+      },
+      "properties": {
+        "LOKASI": "Senapelan",
+        "JENIS": "BP",
+        "DIAMETER": "1.08",
+        "SUHU SEKITAR \nPOHON": 36,
+        "SUHU DILUAR \nPOHON": 37.5,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 4.1200000000000001,
+        "Latitude (Y)": "0.53642N ",
+        "Longitude (X)": "101.43647E",
+        "Latitude (Y)_D": 0.53642000000000001,
+        "Longitude (X)_D": 101.43647
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.43647, 0.53632999999999997]
+      },
+      "properties": {
+        "LOKASI": "Senapelan",
+        "JENIS": "BP",
+        "DIAMETER": "1.21",
+        "SUHU SEKITAR \nPOHON": 36.5,
+        "SUHU DILUAR \nPOHON": 37.700000000000003,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 4.2300000000000004,
+        "Latitude (Y)": "0.53633N ",
+        "Longitude (X)": "101.43647E",
+        "Latitude (Y)_D": 0.53632999999999997,
+        "Longitude (X)_D": 101.43647
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.43647, 0.53624000000000005]
+      },
+      "properties": {
+        "LOKASI": "Senapelan",
+        "JENIS": "BP",
+        "DIAMETER": "1.3",
+        "SUHU SEKITAR \nPOHON": 36,
+        "SUHU DILUAR \nPOHON": 37.5,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 4.3300000000000001,
+        "Latitude (Y)": "0.53624N ",
+        "Longitude (X)": "101.43647E",
+        "Latitude (Y)_D": 0.53624000000000005,
+        "Longitude (X)_D": 101.43647
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.43642, 0.53600000000000003]
+      },
+      "properties": {
+        "LOKASI": "Senapelan",
+        "JENIS": "P",
+        "DIAMETER": "3.72",
+        "SUHU SEKITAR \nPOHON": 35,
+        "SUHU DILUAR \nPOHON": 36.399999999999999,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 3.8799999999999999,
+        "Latitude (Y)": "0.53600N ",
+        "Longitude (X)": "101.43642E",
+        "Latitude (Y)_D": 0.53600000000000003,
+        "Longitude (X)_D": 101.43642
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.43643, 0.53578999999999999]
+      },
+      "properties": {
+        "LOKASI": "Senapelan",
+        "JENIS": "BP",
+        "DIAMETER": "1.17",
+        "SUHU SEKITAR \nPOHON": 35.799999999999997,
+        "SUHU DILUAR \nPOHON": 37,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 4.3700000000000001,
+        "Latitude (Y)": "0.53579N ",
+        "Longitude (X)": "101.43643E",
+        "Latitude (Y)_D": 0.53578999999999999,
+        "Longitude (X)_D": 101.43643
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.43639, 0.53578999999999999]
+      },
+      "properties": {
+        "LOKASI": "Senapelan",
+        "JENIS": "P",
+        "DIAMETER": "3.49",
+        "SUHU SEKITAR \nPOHON": 36.399999999999999,
+        "SUHU DILUAR \nPOHON": 38.700000000000003,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 3.4900000000000002,
+        "Latitude (Y)": "0.53579N ",
+        "Longitude (X)": "101.43639E",
+        "Latitude (Y)_D": 0.53578999999999999,
+        "Longitude (X)_D": 101.43639
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.43638, 0.53656999999999999]
+      },
+      "properties": {
+        "LOKASI": "Senapelan",
+        "JENIS": "P",
+        "DIAMETER": "1.27",
+        "SUHU SEKITAR \nPOHON": 35.799999999999997,
+        "SUHU DILUAR \nPOHON": 37.700000000000003,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 2.5600000000000001,
+        "Latitude (Y)": "0.53657N ",
+        "Longitude (X)": "101.43638E",
+        "Latitude (Y)_D": 0.53656999999999999,
+        "Longitude (X)_D": 101.43638
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.43648, 0.53737999999999997]
+      },
+      "properties": {
+        "LOKASI": "Senapelan",
+        "JENIS": "P",
+        "DIAMETER": "1.43",
+        "SUHU SEKITAR \nPOHON": 36,
+        "SUHU DILUAR \nPOHON": 37,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 1.8700000000000001,
+        "Latitude (Y)": "0.53738N ",
+        "Longitude (X)": "101.43648E",
+        "Latitude (Y)_D": 0.53737999999999997,
+        "Longitude (X)_D": 101.43648
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.4365, 0.53749000000000002]
+      },
+      "properties": {
+        "LOKASI": "Senapelan",
+        "JENIS": "P",
+        "DIAMETER": "0.94",
+        "SUHU SEKITAR \nPOHON": 36,
+        "SUHU DILUAR \nPOHON": 37.100000000000001,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 1.9099999999999999,
+        "Latitude (Y)": "0.53749N ",
+        "Longitude (X)": "101.43650E",
+        "Latitude (Y)_D": 0.53749000000000002,
+        "Longitude (X)_D": 101.4365
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.43644, 0.53759000000000001]
+      },
+      "properties": {
+        "LOKASI": "Senapelan",
+        "JENIS": "P",
+        "DIAMETER": "1.53",
+        "SUHU SEKITAR \nPOHON": 35.899999999999999,
+        "SUHU DILUAR \nPOHON": 37,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 0.34000000000000002,
+        "Latitude (Y)": "0.53759N",
+        "Longitude (X)": " 101.43644E",
+        "Latitude (Y)_D": 0.53759000000000001,
+        "Longitude (X)_D": 101.43644
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.43676000000001, 0.5383]
+      },
+      "properties": {
+        "LOKASI": "Senapelan",
+        "JENIS": "BP",
+        "DIAMETER": "0.67",
+        "SUHU SEKITAR \nPOHON": 35.799999999999997,
+        "SUHU DILUAR \nPOHON": 36.600000000000001,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 3.2400000000000002,
+        "Latitude (Y)": "0.53830N ",
+        "Longitude (X)": "101.43676E",
+        "Latitude (Y)_D": 0.5383,
+        "Longitude (X)_D": 101.43676000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.43677, 0.53827999999999998]
+      },
+      "properties": {
+        "LOKASI": "Senapelan",
+        "JENIS": "P",
+        "DIAMETER": "1.5",
+        "SUHU SEKITAR \nPOHON": 36.399999999999999,
+        "SUHU DILUAR \nPOHON": 37,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 0.78000000000000003,
+        "Latitude (Y)": "0.53828N ",
+        "Longitude (X)": "101.43677E",
+        "Latitude (Y)_D": 0.53827999999999998,
+        "Longitude (X)_D": 101.43677
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.43677, 0.53813999999999995]
+      },
+      "properties": {
+        "LOKASI": "Senapelan",
+        "JENIS": "P",
+        "DIAMETER": "1.07",
+        "SUHU SEKITAR \nPOHON": 35.399999999999999,
+        "SUHU DILUAR \nPOHON": 36.799999999999997,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 1.54,
+        "Latitude (Y)": "0.53814N",
+        "Longitude (X)": " 101.43677E",
+        "Latitude (Y)_D": 0.53813999999999995,
+        "Longitude (X)_D": 101.43677
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.43666, 0.53835999999999995]
+      },
+      "properties": {
+        "LOKASI": "Senapelan",
+        "JENIS": "BP",
+        "DIAMETER": "0.39",
+        "SUHU SEKITAR \nPOHON": 36,
+        "SUHU DILUAR \nPOHON": 36.899999999999999,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 2.6699999999999999,
+        "Latitude (Y)": "0.53836N ",
+        "Longitude (X)": "101.43666E",
+        "Latitude (Y)_D": 0.53835999999999995,
+        "Longitude (X)_D": 101.43666
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.43667000000001, 0.53849000000000002]
+      },
+      "properties": {
+        "LOKASI": "Senapelan",
+        "JENIS": "BP",
+        "DIAMETER": "0.9",
+        "SUHU SEKITAR \nPOHON": 35.899999999999999,
+        "SUHU DILUAR \nPOHON": 36.799999999999997,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 2.4900000000000002,
+        "Latitude (Y)": "0.53849N ",
+        "Longitude (X)": "101.43667E",
+        "Latitude (Y)_D": 0.53849000000000002,
+        "Longitude (X)_D": 101.43667000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.4367, 0.53849999999999998]
+      },
+      "properties": {
+        "LOKASI": "Senapelan",
+        "JENIS": "P",
+        "DIAMETER": "91.22",
+        "SUHU SEKITAR \nPOHON": 36.399999999999999,
+        "SUHU DILUAR \nPOHON": 38.799999999999997,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 7.0099999999999998,
+        "Latitude (Y)": "0.53850N ",
+        "Longitude (X)": "101.43670E",
+        "Latitude (Y)_D": 0.53849999999999998,
+        "Longitude (X)_D": 101.4367
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.43674, 0.53852999999999995]
+      },
+      "properties": {
+        "LOKASI": "Senapelan",
+        "JENIS": "P",
+        "DIAMETER": "90.53",
+        "SUHU SEKITAR \nPOHON": 36.399999999999999,
+        "SUHU DILUAR \nPOHON": 38.799999999999997,
+        "JUMLAH": 1,
+        "KONDISI": "Sehat",
+        "JARAK DARI \nJALAN (m)": 7.0800000000000001,
+        "Latitude (Y)": "0.53853N ",
+        "Longitude (X)": "101.43674E",
+        "Latitude (Y)_D": 0.53852999999999995,
+        "Longitude (X)_D": 101.43674
       }
     }
   ]

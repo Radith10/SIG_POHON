@@ -112,3 +112,69 @@ html, body, #root {
 .card-accent {
   border-left: 6px solid var(--green-primary);
 }
+/* Navbar Controls untuk Peta */
+.navbar-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: auto;
+}
+
+.btn-control {
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  color: inherit;
+}
+
+.btn-control:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.export-dropdown {
+  position: relative;
+}
+
+.export-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  min-width: 160px;
+  z-index: 1000;
+  overflow: hidden;
+}
+
+.navbar.dark .export-menu {
+  background: #2d2d2d;
+}
+
+.export-option {
+  display: block;
+  width: 100%;
+  padding: 10px 16px;
+  border: none;
+  background: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.export-option:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.navbar.dark .export-option:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.export-option:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
