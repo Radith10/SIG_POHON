@@ -22,47 +22,86 @@ import FilterPopup from "./FilterPopup";
 const BASEMAP_BY_TEMA = {
   tematik: {
     title: "Peta Tematik",
-    lightSource: new OSM(),
-    darkSource: new XYZ({ url: "https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}.png" }),
+    lightSource: new OSM({ crossOrigin: 'anonymous' }), // TAMBAHKAN INI
+    darkSource: new XYZ({
+      url: "https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}.png",
+      crossOrigin: 'anonymous', // DAN INI
+    }),
   },
   Humanitarian: {
     title: "Peta Humanitarian",
-    lightSource: new XYZ({ url: "https://{a-c}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png" }),
-    darkSource: new XYZ({ url: "https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}.png" }),
+    lightSource: new XYZ({
+      url: "https://{a-c}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png",
+      crossOrigin: 'anonymous',
+    }),
+    darkSource: new XYZ({
+      url: "https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}.png",
+      crossOrigin: 'anonymous',
+    }),
   },
   basemap: {
     title: "Peta Umum",
-    lightSource: new OSM(),
-    darkSource: new XYZ({ url: "https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}.png" }),
+    lightSource: new OSM({ crossOrigin: 'anonymous' }),
+    darkSource: new XYZ({
+      url: "https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}.png",
+      crossOrigin: 'anonymous',
+    }),
   },
   petaSatelit: {
     title: "Peta Satelit",
-    lightSource: new XYZ({ url: "https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}" }),
-    darkSource: new XYZ({ url: "https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}" }),
+    // NOTE: Google Maps seringkali memblokir export meskipun pakai crossOrigin.
+    // Jika masih error di satelit, berarti Google tidak mengizinkan akses canvas.
+    lightSource: new XYZ({
+      url: "https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}",
+      crossOrigin: 'anonymous', 
+    }),
+    darkSource: new XYZ({
+      url: "https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}",
+      crossOrigin: 'anonymous',
+    }),
   },
   CyclOSM: {
     title: "Peta CyclOSM",
-    lightSource: new XYZ({ url: "https://{a-c}.tile-cyclosm.openstreetmap.fr/cyclosm/{z}/{x}/{y}.png" }),
-    darkSource: new XYZ({ url: "https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}.png" }),
+    lightSource: new XYZ({
+      url: "https://{a-c}.tile-cyclosm.openstreetmap.fr/cyclosm/{z}/{x}/{y}.png",
+      crossOrigin: 'anonymous',
+    }),
+    darkSource: new XYZ({
+      url: "https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}.png",
+      crossOrigin: 'anonymous',
+    }),
   },
   terrain: {
     title: "Peta Terrain",
-    lightSource: new XYZ({ url: "https://{a-c}.tile.opentopomap.org/{z}/{x}/{y}.png" }),
-    darkSource: new XYZ({ url: "https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}.png" }),
+    lightSource: new XYZ({
+      url: "https://{a-c}.tile.opentopomap.org/{z}/{x}/{y}.png",
+      crossOrigin: 'anonymous',
+    }),
+    darkSource: new XYZ({
+      url: "https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}.png",
+      crossOrigin: 'anonymous',
+    }),
   },
   hybrid: {
     title: "Peta Hybrid",
-    lightSource: new XYZ({ url: "https://mt1.google.com/vt/lyrs=y&x={x}&y={y}&z={z}" }),
-    darkSource: new XYZ({ url: "https://mt1.google.com/vt/lyrs=y&x={x}&y={y}&z={z}" }),
+    lightSource: new XYZ({
+      url: "https://mt1.google.com/vt/lyrs=y&x={x}&y={y}&z={z}",
+      crossOrigin: 'anonymous',
+    }),
+    darkSource: new XYZ({
+      url: "https://mt1.google.com/vt/lyrs=y&x={x}&y={y}&z={z}",
+      crossOrigin: 'anonymous',
+    }),
   },
 };
+
 
 export default function PetaDetail() {
   const { tema } = useParams();
   const navigate = useNavigate();
   const mapRef = useRef(null);
   const mapInstance = useRef(null);
-  const layersRef = useRef([]); 
+  const layersRef = useRef([]);
   const allFeaturesRef = useRef([]);
 
   const { isDarkMode, setIsDarkMode, isExporting, setIsExporting } = useAppContext();
@@ -84,7 +123,7 @@ export default function PetaDetail() {
   const checkFeaturePassesFilter = (feature, filters) => {
     if (!filters) return true;
     const props = feature.getProperties();
-    const jenis = props.JENIS || ""; 
+    const jenis = props.JENIS || "";
     const kondisi = props.KONDISI || "";
     const suhu = parseFloat(props["SUHU SEKITAR \nPOHON"]);
 
@@ -102,7 +141,7 @@ export default function PetaDetail() {
   const handleFilterChange = useCallback((newFilters) => {
     setActiveFilters(newFilters);
     if (allFeaturesRef.current.length === 0) return;
-    const filteredFeatures = allFeaturesRef.current.filter(feature => 
+    const filteredFeatures = allFeaturesRef.current.filter(feature =>
       checkFeaturePassesFilter(feature, newFilters)
     );
     layersRef.current.forEach(layer => {
@@ -129,7 +168,7 @@ export default function PetaDetail() {
       .then(data => {
         const features = new GeoJSON().readFeatures(data, { featureProjection: "EPSG:3857" });
         allFeaturesRef.current = features;
-        const initialFeatures = activeFilters 
+        const initialFeatures = activeFilters
           ? features.filter(f => checkFeaturePassesFilter(f, activeFilters))
           : features;
         vectorSource.addFeatures(initialFeatures);
@@ -168,27 +207,27 @@ export default function PetaDetail() {
     if (tema !== "tematik") {
       const popupElement = document.getElementById("popup");
       const popupContent = document.getElementById("popup-content");
-      if(popupElement) {
-          const overlayPopup = new Overlay({
-            element: popupElement,
-            offset: [0, -15],
-            positioning: "bottom-center",
-            stopEvent: false,
-          });
-          map.addOverlay(overlayPopup);
-          
-          map.on("pointermove", (evt) => {
-            if (evt.dragging) return;
-            const feature = map.forEachFeatureAtPixel(evt.pixel, (feat) => feat);
-            if (!feature) {
-              overlayPopup.setPosition(undefined);
-              popupElement.classList.remove("show");
-              map.getTargetElement().style.cursor = "";
-              return;
-            }
-             const props = feature.getProperties();
-             const jenisPohon = props.JENIS === "P" ? "Peneduh" : props.JENIS === "BP" ? "Bukan Peneduh" : "Tidak diketahui";
-             popupContent.innerHTML = `
+      if (popupElement) {
+        const overlayPopup = new Overlay({
+          element: popupElement,
+          offset: [0, -15],
+          positioning: "bottom-center",
+          stopEvent: false,
+        });
+        map.addOverlay(overlayPopup);
+
+        map.on("pointermove", (evt) => {
+          if (evt.dragging) return;
+          const feature = map.forEachFeatureAtPixel(evt.pixel, (feat) => feat);
+          if (!feature) {
+            overlayPopup.setPosition(undefined);
+            popupElement.classList.remove("show");
+            map.getTargetElement().style.cursor = "";
+            return;
+          }
+          const props = feature.getProperties();
+          const jenisPohon = props.JENIS === "P" ? "Peneduh" : props.JENIS === "BP" ? "Bukan Peneduh" : "Tidak diketahui";
+          popupContent.innerHTML = `
                 <div class="popup-card">
                   <div class="popup-header">📍 Data Pohon</div>
                   <div class="popup-section">
@@ -197,18 +236,91 @@ export default function PetaDetail() {
                     <div class="popup-item"><span class="label">💚 Kondisi</span><span class="value">${props.KONDISI}</span></div>
                   </div>
                 </div>`;
-             overlayPopup.setPosition(evt.coordinate);
-             popupElement.classList.add("show");
-             map.getTargetElement().style.cursor = "pointer";
-          });
+          overlayPopup.setPosition(evt.coordinate);
+          popupElement.classList.add("show");
+          map.getTargetElement().style.cursor = "pointer";
+        });
       }
     }
 
     mapInstance.current = map;
-    return () => { if(mapInstance.current) mapInstance.current.setTarget(null); }
+    return () => { if (mapInstance.current) mapInstance.current.setTarget(null); }
   }, [temaConfig, tema, isDarkMode]);
 
-  const handleExportMap = () => { /* Logic export */ };
+  // Fungsi Export Map Lengkap
+  const handleExportMap = () => {
+    if (!mapInstance.current) return;
+
+    setIsExporting(true);
+
+    mapInstance.current.once("rendercomplete", () => {
+      const mapCanvas = document.createElement("canvas");
+      const size = mapInstance.current.getSize();
+      mapCanvas.width = size[0];
+      mapCanvas.height = size[1];
+      const mapContext = mapCanvas.getContext("2d");
+
+      Array.prototype.forEach.call(
+        mapInstance.current
+          .getViewport()
+          .querySelectorAll(".ol-layer canvas, canvas.ol-layer"),
+        (canvas) => {
+          if (canvas.width > 0) {
+            const opacity =
+              canvas.parentNode.style.opacity || canvas.style.opacity;
+            mapContext.globalAlpha = opacity === "" ? 1 : Number(opacity);
+
+            let matrix;
+            const transform = canvas.style.transform;
+            if (transform) {
+              matrix = transform
+                .match(/^matrix\(([^\(]*)\)$/)[1]
+                .split(",")
+                .map(Number);
+            } else {
+              matrix = [
+                parseFloat(canvas.style.width) / canvas.width,
+                0,
+                0,
+                parseFloat(canvas.style.height) / canvas.height,
+                0,
+                0,
+              ];
+            }
+            CanvasRenderingContext2D.prototype.setTransform.apply(
+              mapContext,
+              matrix
+            );
+            const backgroundColor = canvas.parentNode.style.backgroundColor;
+            if (backgroundColor) {
+              mapContext.fillStyle = backgroundColor;
+              mapContext.fillRect(0, 0, canvas.width, canvas.height);
+            }
+
+            mapContext.drawImage(canvas, 0, 0);
+          }
+        }
+      );
+
+      mapContext.globalAlpha = 1;
+      mapContext.setTransform(1, 0, 0, 1, 0, 0);
+
+      try {
+        // BAGIAN KRUSIAL: Try-Catch untuk menangkap error Tainted Canvas
+        const link = document.createElement("a");
+        link.download = `peta-${tema}-${new Date().getTime()}.png`;
+        link.href = mapCanvas.toDataURL(); // Ini baris yg menyebabkan error
+        link.click();
+      } catch (error) {
+        console.error("Gagal Export Peta:", error);
+        alert("Maaf, gagal export gambar karena pembatasan keamanan dari penyedia peta (CORS). Coba ganti jenis peta dasar (Basemap).");
+      } finally {
+        setIsExporting(false);
+      }
+    });
+
+    mapInstance.current.renderSync();
+  };
 
   if (!temaConfig) return <div>Tema Error</div>;
 
@@ -230,7 +342,7 @@ export default function PetaDetail() {
       {/* --- CONTAINER STACKING (PERBAIKAN UTAMA) --- */}
       {/* Container ini akan memaksa anak-anaknya berbaris vertikal */}
       <div className="ui-stack-left">
-        
+
         {/* Item 1: Filter (Diatas) */}
         <div className="stack-item-filter">
           <FilterPopup onFilterChange={handleFilterChange} />
@@ -238,9 +350,9 @@ export default function PetaDetail() {
 
         {/* Item 2: Legend (Dibawahnya) */}
         <div className="stack-item-legend">
-           <Legend isDarkMode={isDarkMode} />
+          <Legend isDarkMode={isDarkMode} />
         </div>
-      
+
       </div>
 
     </div>
