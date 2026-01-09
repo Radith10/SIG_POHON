@@ -1,41 +1,60 @@
-/* =======================
-   HERO
-======================= */
+/* --- Variables & Global --- */
+:root {
+  --font-main: "Inter", -apple-system, sans-serif;
+}
+
+body {
+  font-family: var(--font-main);
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+}
+
+/* --- Hero Section --- */
 .hero {
-    color: #000;
+  color: #000;
   height: 100vh;
-  background-image: url("/images/hero-tree-people.jpg");
-  background-size: cover;
-  background-position: center;
   position: relative;
+  overflow: hidden;
   display: flex;
   align-items: center;
-  justify-content: center;
+  background: url("/images/hero-tree-people.jpg") center/cover;
 }
 
 .hero-overlay {
   position: absolute;
   inset: 0;
-    background: rgba(11, 102, 35, 0.55);
+  background: rgba(11, 102, 35, 0.55);
 }
 
-.hero-content {
+.hero-container {
   position: relative;
-  text-align: center;
-  color: white;
-  max-width: 800px;
+  z-index: 10;
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 0 24px;
+  width: 100%;
 }
 
-.hero-content h1 {
-  font-size: 42px;
-  margin-bottom: 16px;
+.hero-content-left {
+  color: white;
 }
-
-.hero-content p {
+.hero-content-left h1 {
+  font-size: 52px;
+  line-height: 1.2;
+  margin: 15px 0;
+}
+.hero-content-left p {
   font-size: 18px;
-  line-height: 1.6;
-  margin-bottom: 32px;
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+
+.hero-btns {
+  display: flex;
+  gap: 15px;
 }
 
 .hero-button {
@@ -46,16 +65,87 @@
   border-radius: 30px;
   font-weight: bold;
   cursor: pointer;
-  transition: transform 0.3s ease;
+  transition: 0.3s;
 }
 
-.hero-button:hover {
+.hero-button-outline {
+  padding: 14px 36px;
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hero-button:hover,
+.hero-button-outline:hover {
   transform: translateY(-3px);
+  opacity: 0.9;
 }
 
-/* =======================
-   HOME SECTIONS
-======================= */
+/* --- Floating Visuals --- */
+.hero-visual-right {
+  position: relative;
+  height: 400px;
+  pointer-events: none;
+}
+
+.floating-card {
+  pointer-events: auto;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  padding: 15px 25px;
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  animation: floating 3s ease-in-out infinite;
+}
+
+.c1 {
+  top: 10%;
+  right: 0;
+}
+.c2 {
+  top: 40%;
+  left: 10%;
+  animation-delay: 0.5s;
+}
+.c3 {
+  bottom: 10%;
+  right: 10%;
+  animation-delay: 1s;
+}
+
+@keyframes floating {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+/* --- Common Sections --- */
+.section {
+  padding: 100px 24px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+}
+.bg-white {
+  background-color: #ffffff;
+}
+.bg-soft-green {
+  background-color: #f1f8f3;
+}
+
 .home-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -68,24 +158,25 @@
 .home-section.reverse {
   direction: rtl;
 }
-
 .home-section.reverse > * {
   direction: ltr;
 }
 
+.badge {
+  display: inline-block;
+  padding: 4px 12px;
+  background: var(--green-light);
+  color: var(--green-primary);
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
 .home-text h2 {
   font-size: 32px;
-  margin-bottom: 16px;
   color: var(--green-dark);
 }
-
-.home-text p {
-  font-size: 17px;
-  line-height: 1.7;
-  color: var(--text-muted);
-  margin-bottom: 24px;
-}
-
 .home-cta {
   padding: 12px 28px;
   background: var(--green-primary);
@@ -94,8 +185,83 @@
   border-radius: 24px;
   font-weight: bold;
   cursor: pointer;
+  transition: 0.3s;
 }
 
+/* --- Features & Cards --- */
+.home-features-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+.feat-box {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  border: 1px solid #eee;
+}
+.feat-box.active {
+  background: var(--green-primary);
+  color: white;
+}
+
+.insight-preview-card {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.07);
+  border-left: 5px solid var(--green-primary);
+}
+
+.file-stack {
+  position: relative;
+  width: 200px;
+  height: 150px;
+}
+.file-item {
+  position: absolute;
+  width: 130px;
+  height: 90px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border: 2px solid white;
+}
+.file-item.geojson {
+  background: var(--green-primary);
+  color: white;
+  z-index: 2;
+  transform: rotate(-5deg);
+}
+.file-item.csv {
+  background: var(--accent);
+  color: var(--green-dark);
+  bottom: 0;
+  right: 0;
+  transform: rotate(5deg);
+}
+
+/* --- Stats Bar --- */
+.stats-bar.dark-theme {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 24px;
+  background: var(--green-dark);
+  color: white;
+  text-align: center;
+}
+.stat-item h3 {
+  font-size: 32px;
+  color: var(--accent);
+  margin: 0;
+}
 .home-center {
   text-align: center;
   max-width: 700px;
