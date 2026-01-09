@@ -43,46 +43,50 @@ export default function Contact() {
 
       {/* 2. TEAM SECTION */}
       <section className="contact-section">
-        <div className="team-grid">
-          <div className="team-card">
-             <img src="/images/rach.png" alt="Anggota 3" />
-            <h3>Radith</h3>
-           
-            <span>Frontend & UI</span>
-            <p>
-              Bertanggung jawab pada desain antarmuka, halaman Home, serta
-              integrasi visual frontend.
-            </p>
-          </div>
+        <div className="section-title-simple">
+          <h2>Anggota Kelompok</h2>
+          <div className="line-dec"></div>
+        </div>
+        
+        <motion.div className="team-grid-4col" variants={containerVariants} initial="hidden" whileInView="visible" viewport={{ once: true }}>
+          {team.map((member) => (
+            <motion.div key={member.id} className="member-card-sleek" variants={itemVariants}>
+              <div className="img-wrapper">
+                <img src={`/images/team/anggota${member.id}.jpg`} alt={member.name} />
+              </div>
+              <div className="member-info">
+                <span className="mini-role">{member.role}</span>
+                <h4>{member.name}</h4>
+                <p>{member.desc}</p>
+              </div>
+            </motion.div>
+          ))}
+        </motion.div>
+      </section>
 
-          <div className="team-card">
-            <img src="/images/Jes.JPG" alt="Anggota 1" />
-            <h3>Jessica</h3>
-            <span>WebGIS & Insight</span>
-            <p>
-              Mengembangkan peta interaktif dan mengolah data vegetasi,
-              melakukan analisis spasial, serta menyusun insight hasil
-              penelitian.
-            </p>
+      {/* 3. INFO BAR STRIP */}
+      <section className="bottom-info-strip">
+        <div className="strip-container">
+          <div className="strip-item">
+            <span className="strip-icon">📍</span>
+            <div>
+              <p className="label">Lokasi Studi</p>
+              <p className="val">Pekanbaru, Riau</p>
+            </div>
           </div>
-
-          <div className="team-card">
-            <img src="/images/ELVI.png" alt="Anggota 3" />
-            <h3>Elviana</h3>
-            <span>Filter Maps</span>
-            <p>
-              Membuat Fitur Data yang sudah di kelola pada bagian peta
-              interaktif.
-            </p>
+          <div className="strip-item active">
+            <span className="strip-icon">📅</span>
+            <div>
+              <p className="label">Semester</p>
+              <p className="val">Ganjil 25/26</p>
+            </div>
           </div>
-
-          <div className="team-card">
-           <img src="/images/kha.png" alt="Anggota 2" />
-            <h3>Khairullah</h3>
-            <span>Visualisasi & Dataset</span>
-            <p>
-              Menyusun laporan akademik, dokumentasi proyek, dan membuat visualisasi serta menu Dataset
-            </p>
+          <div className="strip-item">
+            <span className="strip-icon">🛠️</span>
+            <div>
+              <p className="label">Metodologi</p>
+              <p className="val">Spasial & Observasi</p>
+            </div>
           </div>
         </div>
       </section>
